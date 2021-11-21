@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/SumAndFactUsingDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSLib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/airthmetic/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/airthmetic/JosephsCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/JosephsCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/airthmetic/KthPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/KthPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/airthmetic/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/airthmetic/ReplaceValueWIthProductOfOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/ReplaceValueWIthProductOfOthers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/cache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/cache/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/cache/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/cache/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/matrix/NumberOfMovesForKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/matrix/NumberOfMovesForKnight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/matrix/SearchIn2DCrossWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/matrix/SearchIn2DCrossWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/matrix/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/matrix/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/InterLeavingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/InterLeavingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/MaximizeTheaterIncomingPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/MaximizeTheaterIncomingPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/MaximumSumInSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/MaximumSumInSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/MedianInInfiniteSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/MedianInInfiniteSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/MergeKSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/MergeKSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/SuccessivePairIsInStackIsConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/SuccessivePairIsInStackIsConsecutive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/queues/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/search/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/search/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/search/SearchInSortedRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/search/SearchInSortedRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/CheckExpressionIsBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/CheckExpressionIsBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/EvaluateExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/EvaluateExpressionTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/EvaluateInfixUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/EvaluateInfixUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/EvaluatePostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/EvaluatePostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/FindingSpans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/FindingSpans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/GetMinAtConstantTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/GetMinAtConstantTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/InfixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/InfixToPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/InfixToPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/MaxRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/MaxRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/NextNearestGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/NextNearestGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/ReverseStackUsingAnotherStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/ReverseStackUsingAnotherStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/arrays/stack/StackPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/stack/StackPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/bitwise/BasicBitwiseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bitwise/BasicBitwiseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/devideAndConquer/ClosestPairPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devideAndConquer/ClosestPairPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/devideAndConquer/MedianInTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devideAndConquer/MedianInTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/devideAndConquer/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devideAndConquer/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/devideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devideAndConquer/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/devideAndConquer/StockPricingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/devideAndConquer/StockPricingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/disjointset/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/disjointset/DisjointSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/BSTsUsingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/BSTsUsingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/BoxStacking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/BoxStacking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/CountWaysForBooleanParenthesized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/CountWaysForBooleanParenthesized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/IsStringSInT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/IsStringSInT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/MaxAppleCanCollect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/MaxAppleCanCollect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/MaxSubMatrixWithAll1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/MaxSubMatrixWithAll1s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/MaxSumSubMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/MaxSumSubMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/MinDifficultyJobScheduling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/MinDifficultyJobScheduling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/OptimumJumpsToReachLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/OptimumJumpsToReachLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/choosebest/optimalStrategyForAGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/optimalStrategyForAGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/maxsubarray/MaxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/maxsubarray/MaxSumSubArrayWithNoKContiguousNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxSumSubArrayWithNoKContiguousNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/BuildingBridges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/BuildingBridges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LargestSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LargestSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestCommonSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LongestPalindromeSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestPalindromeSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LongestPalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestPalindromeSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/LongestSubstringWithoutRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestSubstringWithoutRepeatingCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsequence/ProblemsOnBSTs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/ProblemsOnBSTs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsetsum/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsetsum/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsetsum/SolveSummation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsetsum/SolveSummation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsetsum/SubsetPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsetsum/SubsetPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsetsum/isSubsetHalfSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsetsum/isSubsetHalfSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/dynamicprogramming/subsetsum/isSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsetsum/isSubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/geometry/PointsOnALine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geometry/PointsOnALine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/AlienLanguageUsingTopological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/AlienLanguageUsingTopological.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/AllPointsShortestPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/AllPointsShortestPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/BreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/CutVertexOrArticulationPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/CutVertexOrArticulationPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/DepthOfDirectedAcyclicGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/DepthOfDirectedAcyclicGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/DetectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/DetectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/InDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/InDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/MinAndMaxDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/MinAndMaxDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/MinOperationRequiredToConvertFromXtoY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/MinOperationRequiredToConvertFromXtoY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/MinimumSpanningTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/MinimumSpanningTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/graph/paths/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/greedy/ActivitySelectionProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greedy/ActivitySelectionProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/greedy/BestTimeToBuyAndSellAStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greedy/BestTimeToBuyAndSellAStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/greedy/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greedy/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/hackerearth/LevelNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerearth/LevelNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/hackerrank/FindNearestClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/FindNearestClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/hackerrank/JourneyToTheMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/JourneyToTheMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/hackerrank/MinCostForLibraryAccessForHackerLand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/MinCostForLibraryAccessForHackerLand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/interfaces/list/LLNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/list/LLNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/interfaces/list/ListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/list/ListInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/interfaces/stack/ExpressionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/stack/ExpressionInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/leetcode/array/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/array/MeetingRoomsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/leetcode/graph/ConcatenatedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/graph/ConcatenatedWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/leetcode/graph/CourseScheduleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/graph/CourseScheduleII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/leetcode/graph/MaxAverageSubTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/graph/MaxAverageSubTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/leetcode/graph/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/graph/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/leetcode/graph/StronglyConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/graph/StronglyConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/CloneLinkedListUsingRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/CloneLinkedListUsingRandomPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/FindIntersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/FindIntersect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/LLIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/LLIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/NthPositionInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/NthPositionInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/ReverseNodesInKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/linkedlists/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/node/DoubleLinkedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/node/DoubleLinkedNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/linkedlist/node/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/node/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/multithreading/executorexamples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/executorexamples/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/multithreading/executorexamples/SampleExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/executorexamples/SampleExecutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/multithreading/executorexamples/TasksExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/executorexamples/TasksExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/multithreading/producerconsumer/ExecutorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/producerconsumer/ExecutorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/multithreading/producerconsumer/MultiThreadWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/producerconsumer/MultiThreadWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/recursion/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/Generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/recursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sets/basic/SetMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sets/basic/SetMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sorting/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sorting/N2Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/N2Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/sorting/SumOfPairCloseToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/SumOfPairCloseToZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/string/InterLeavings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/InterLeavings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/string/PermutationAndCombinationOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/PermutationAndCombinationOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/string/RemoveAdjacentCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/RemoveAdjacentCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/string/patternmatching/PatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/patternmatching/PatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/string/slidingwindow/ContainWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/slidingwindow/ContainWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/string/slidingwindow/MinWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/slidingwindow/MinWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/balancingtree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/balancingtree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/Ancestors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Ancestors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/BuildTreeUsingPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BuildTreeUsingPreorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/CousinsInTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/CousinsInTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/DiameterOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/DiameterOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/ExpressionTreeFromPostFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/ExpressionTreeFromPostFix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/HasPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/HasPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/MirrorBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/MirrorBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/NthNodeInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/NthNodeInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/SortedArrayToBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/SortedArrayToBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/SubTreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/SubTreeOfAnotherTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/TreeUsingInorderAndPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/TreeUsingInorderAndPreorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/TreeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/TreeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/binarytrees/ZigZagTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/ZigZagTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/suffixtree/SuffixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/suffixtree/SuffixTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/utils/IntPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/utils/IntPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/trees/utils/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/utils/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/utilities/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/utilities/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/code/utilities/UnDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/UnDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/dsalgos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/arrays/search/SearchAnArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/arrays/search/SearchAnArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/arrays/stack/ExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/arrays/stack/ExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/linkedlist/linkedlists/LLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/linkedlist/linkedlists/LLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/linkedlist/linkedlists/NthPositionInListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/linkedlist/linkedlists/NthPositionInListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/linkedlist/linkedlists/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/linkedlist/linkedlists/ReverseLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/recursion/GenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/recursion/GenerateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/recursion/TowerOfHanoiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/recursion/TowerOfHanoiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/trees/binarytree/AVLTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/trees/binarytree/AVLTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsalgos/tests/trees/binarytree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/trees/binarytree/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/airthmetic/CombinationSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/airthmetic/JosephsCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/airthmetic/KthPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/airthmetic/NextPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/airthmetic/ReplaceValueWIthProductOfOthers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/cache/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/cache/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/matrix/NumberOfMovesForKnight$CellDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/matrix/NumberOfMovesForKnight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/matrix/SearchIn2DCrossWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/matrix/SpiralMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/InterLeavingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/MaximizeTheaterIncomingPrice$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/MaximizeTheaterIncomingPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/MaximumSumInSlidingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/MedianInInfiniteSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/MergeKSortedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/SuccessivePairIsInStackIsConsecutive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/queues/TrappingRainWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/search/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/search/SearchInSortedRotatedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/CheckExpressionIsBalanced.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/EvaluateExpressionTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/EvaluateInfixUsingStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/EvaluatePostfix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/FindingSpans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/GetMinAtConstantTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/InfixToPostfix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/InfixToPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/MaxRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/NextNearestGreaterElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/ReverseStackUsingAnotherStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/arrays/stack/StackPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/backtracking/recursion/Generate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/backtracking/recursion/TowerOfHanoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/bitwise/BasicBitwiseOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/devideAndConquer/ClosestPairPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/devideAndConquer/MedianInTwoSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/devideAndConquer/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/devideAndConquer/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/devideAndConquer/StockPricingProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/BSTsUsingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/BoxStacking$Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/BoxStacking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/CountWaysForBooleanParenthesized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/IsStringSInT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/MaxAppleCanCollect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/MaxSubMatrixWithAll1s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/MaxSumSubMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/MinDifficultyJobScheduling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/OptimumJumpsToReachLast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/choosebest/optimalStrategyForAGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/maxsubarray/MaxProductSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/maxsubarray/MaxSumSubArrayWithNoKContiguousNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/BuildingBridges.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/EditDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/Knapsack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LargestSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LongestCommonSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LongestIncreasingSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LongestPalindromeSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LongestPalindromeSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/LongestSubstringWithoutRepeatingCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsequence/ProblemsOnBSTs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsetsum/CoinChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsetsum/SolveSummation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsetsum/SubsetPartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsetsum/isSubsetHalfSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/dynamicprogramming/subsetsum/isSubsetSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/geometry/PointsOnALine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/AlienLanguageUsingTopological.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/AllPointsShortestPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/BreadthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/CutVertexOrArticulationPoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/DepthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/DepthOfDirectedAcyclicGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/DetectCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/Dijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/InDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/MinAndMaxDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/MinOperationRequiredToConvertFromXtoY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/MinimumSpanningTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/graph/paths/TopologicalSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/greedy/ActivitySelectionProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/greedy/BestTimeToBuyAndSellAStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/greedy/JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/hackerearth/LevelNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/hackerrank/ConnectedCellsInAGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/hackerrank/FindNearestClone$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/hackerrank/FindNearestClone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/hackerrank/JourneyToTheMoon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/hackerrank/MinCostForLibraryAccessForHackerLand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/interfaces/list/LLNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/interfaces/list/ListInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/interfaces/stack/ExpressionInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/array/MeetingRoomsII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/ConcatenatedWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/CourseScheduleII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/MaxAverageSubTree$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/MaxAverageSubTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/NumberOfIslands$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/NumberOfIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/StronglyConnectedComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/leetcode/graph/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/CloneLinkedListUsingRandomPointer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/DoubleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/FindIntersect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/LLIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/NthPositionInList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/ReverseNodesInKGroup$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/ReverseNodesInKGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/linkedlists/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/node/DoubleLinkedNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/linkedlist/node/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/executorexamples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/executorexamples/SampleExecutors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/executorexamples/TasksExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/executorexamples/ThreadObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/producerconsumer/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/producerconsumer/ExecutorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/producerconsumer/MultiThreadWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/producerconsumer/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/multithreading/producerconsumer/SampleThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sets/basic/SetMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sorting/CountingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sorting/FindMissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sorting/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sorting/N2Sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/sorting/SumOfPairCloseToZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/string/InterLeavings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/string/PermutationAndCombinationOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/string/RemoveAdjacentCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/string/patternmatching/PatternMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/string/slidingwindow/ContainWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/string/slidingwindow/MinWindowSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/balancingtree/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/Ancestors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/BinaryNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/BuildTreeUsingPreorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/CousinsInTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/DiameterOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/ExpressionTreeFromPostFix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/HasPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/MirrorBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/NthNodeInBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/SortedArrayToBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/SubTreeOfAnotherTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/TreeUsingInorderAndPreorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/TreeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/binarytrees/ZigZagTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/suffixtree/SuffixTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/utils/IntPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/trees/utils/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/utilities/ArrayUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/utilities/DirectedGraph$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/utilities/DirectedGraph$Triplets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/utilities/DirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsalgos/utilities/UnDirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/arrays/search/SearchAnArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/arrays/stack/ExpressionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/backtracking/recursion/GenerateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/backtracking/recursion/TowerOfHanoiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/linkedlist/linkedlists/LLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/linkedlist/linkedlists/NthPositionInListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/linkedlist/linkedlists/ReverseLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/trees/binarytree/AVLTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/dsalgos/trees/binarytree/BinaryTreeTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1rquDwWTuv84rK4y42rNMJGZ34I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../playo" />
+    <property name="ml.local.models.training.notification.expired" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RaghavendraTA\OneDrive\Documents\vscode\DSLib\src\test" />
+      <recent name="C:\Users\RaghavendraTA\OneDrive\Documents\vscode\DSLib\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="string" />
+      <recent name="backtracking.recursion" />
+      <recent name="linkedlist.linkedlists" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="linkedlist.node" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SumAndFactUsingDP">
+    <configuration name="FindNearestClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.FindNearestClone" />
+      <module name="dsalgos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.cache.LRUCache" />
+      <module name="dsalgos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinCostForLibraryAccessForHackerLand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.MinCostForLibraryAccessForHackerLand" />
+      <module name="dsalgos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumAndFactUsingDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="recursion.SumAndFactUsingDP" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in DSLib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSLib" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run-node" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.FindNearestClone" />
+      <item itemvalue="Application.MinCostForLibraryAccessForHackerLand" />
+      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="JUnit.All in DSLib" />
+      <item itemvalue="Application.SumAndFactUsingDP" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SumAndFactUsingDP" />
+        <item itemvalue="JUnit.All in DSLib" />
+        <item itemvalue="Application.FindNearestClone" />
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.MinCostForLibraryAccessForHackerLand" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="" />
+      <created>1619715825197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619715825197</updated>
+      <workItem from="1619715826415" duration="9272000" />
+      <workItem from="1619789716220" duration="2078000" />
+      <workItem from="1619925563211" duration="7864000" />
+      <workItem from="1619954277916" duration="2915000" />
+      <workItem from="1619966065702" duration="518000" />
+      <workItem from="1620235138195" duration="13402000" />
+      <workItem from="1620450920342" duration="952000" />
+      <workItem from="1620455225450" duration="7024000" />
+      <workItem from="1620545096518" duration="1227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
