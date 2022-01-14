@@ -20,7 +20,7 @@ package airthmetic;
  */
 public class NextPermutation {
 
-    void reverseArray(int arr[], int start, int end) {
+    void reverseArray(int[] arr, int start, int end) {
 
         while (start < end) {
             int temp = arr[start];

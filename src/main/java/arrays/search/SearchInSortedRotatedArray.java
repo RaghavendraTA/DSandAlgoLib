@@ -40,8 +40,8 @@ public class SearchInSortedRotatedArray<T extends Comparable<T>> {
         }
         else {
             return Math.max(
-                    binarySearch.search(arr, target, 0, p - 1),
-                    binarySearch.search(arr, target, p, arr.length - 1)
+                binarySearch.search(arr, target, 0, p - 1),
+                binarySearch.search(arr, target, p, arr.length - 1)
             );
         }
     }

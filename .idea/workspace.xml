@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/airthmetic/CombinationNcROfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/airthmetic/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/StringPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/xmltree/XMLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/xmltree/XMLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/xmltree/XmlParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airthmetic/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/search/SearchInSortedRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/search/SearchInSortedRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerrank/FindNearestClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerrank/FindNearestClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/executorexamples/SampleExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/executorexamples/SampleExecutors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +84,13 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumAndFactUsingDP">
-    <configuration name="FindNearestClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.FindNearestClone" />
-      <module name="dsalgos" />
+  <component name="RunManager" selected="Application.StringPool">
+    <configuration name="CombinationNcROfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="airthmetic.CombinationNcROfDigits" />
+      <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerrank.*" />
+          <option name="PATTERN" value="airthmetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,36 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.cache.LRUCache" />
-      <module name="dsalgos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.cache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinCostForLibraryAccessForHackerLand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerrank.MinCostForLibraryAccessForHackerLand" />
-      <module name="dsalgos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumAndFactUsingDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="16" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="recursion.SumAndFactUsingDP" />
+    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.FibonacciSeries" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
@@ -128,10 +111,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in DSLib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="airthmetic.Permutation" />
       <module name="DSLib" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="airthmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringPool" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.xmltree.XMLTree" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.xmltree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,19 +154,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FindNearestClone" />
-      <item itemvalue="Application.MinCostForLibraryAccessForHackerLand" />
-      <item itemvalue="Application.LRUCache" />
-      <item itemvalue="JUnit.All in DSLib" />
-      <item itemvalue="Application.SumAndFactUsingDP" />
+      <item itemvalue="Application.CombinationNcROfDigits" />
+      <item itemvalue="Application.FibonacciSeries" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.StringPool" />
+      <item itemvalue="Application.XMLTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumAndFactUsingDP" />
-        <item itemvalue="JUnit.All in DSLib" />
-        <item itemvalue="Application.FindNearestClone" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.MinCostForLibraryAccessForHackerLand" />
+        <item itemvalue="Application.StringPool" />
+        <item itemvalue="Application.XMLTree" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.CombinationNcROfDigits" />
+        <item itemvalue="Application.FibonacciSeries" />
       </list>
     </recent_temporary>
   </component>

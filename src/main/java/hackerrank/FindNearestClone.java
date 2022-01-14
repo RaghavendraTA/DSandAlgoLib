@@ -60,7 +60,7 @@ public class FindNearestClone {
                 System.out.println(q.poll());
         }
         else if (q.size() > 1)
-                System.out.println(q.poll() + q.poll());
+            System.out.println(q.poll() + q.poll());
         else
             System.out.println("-1");
     }
