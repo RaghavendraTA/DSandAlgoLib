@@ -1,0 +1,12 @@
+
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(˚õ˛ˆ˝ˇˇˇˇ
+k
+java:S11497"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(˚õ˛ˆ˝ˇˇˇˇ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©Õ·Ë
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(˚Õ‚ﬂ
+á
+java:S1130H"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ÿÿ§ﬁ˝ˇˇˇˇ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(∆¿≥¿
+T
+java:S1155:">Use isEmpty() to check whether the collection is empty or not.(‰€üñ

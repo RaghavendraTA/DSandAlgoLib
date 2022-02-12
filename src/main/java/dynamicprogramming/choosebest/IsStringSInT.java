@@ -36,7 +36,7 @@ public class IsStringSInT {
     }
 
     public static void main(String[] args) {
-        String s = "ab", t = "abadcb";
+        String s = "aba", t = "abadcb";
         isStringSInT(s, t);
     }
 }

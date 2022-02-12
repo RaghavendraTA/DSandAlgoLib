@@ -34,7 +34,7 @@ public class Dijkstra {
 
         queue.add(new IntPair(start, 0));
 
-        while (queue.size() > 0) {
+        while (!queue.isEmpty()) {
             IntPair node = queue.poll();
             if (distance.containsKey(node.getKey())) {
                 continue;
@@ -60,7 +60,7 @@ public class Dijkstra {
 
         queue.add(new IntPair(start, 0));
 
-        while (queue.size() > 0) {
+        while (!queue.isEmpty()) {
             IntPair node = queue.poll();
             if (distance.containsKey(node.getKey())) {
                 continue;

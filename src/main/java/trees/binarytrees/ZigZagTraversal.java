@@ -22,7 +22,7 @@ public class ZigZagTraversal {
         if (root == null)
             return;
 
-    BinaryNode<Integer> node;
+        BinaryNode<Integer> node;
         boolean leftToRight = true;
 
         Stack<BinaryNode<Integer>> current = new Stack<>();

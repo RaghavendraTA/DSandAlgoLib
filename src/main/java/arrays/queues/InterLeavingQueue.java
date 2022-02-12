@@ -64,6 +64,7 @@ public class InterLeavingQueue {
             queue.add(queue.poll());
         }
 
+        System.out.print("Output => ");
         System.out.println(queue);
     }
 
@@ -72,6 +73,8 @@ public class InterLeavingQueue {
         for(int i = 11; i <= 20; i++) {
             queue.add(i);
         }
+        System.out.print("Input  => ");
+        System.out.println(queue);
         interLeavingQueue(queue);
     }
 }

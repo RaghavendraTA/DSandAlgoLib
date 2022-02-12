@@ -1,0 +1,13 @@
+
+c	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÝÖ»
+T
+java:S34004"9Remove this method and declare a constant for this value.(Ö§”Óþÿÿÿÿ
+@
+java:S11723"*Remove this unused method parameter "str".(ýÝÖ»
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÌŠÖÿÿÿÿÿ
+c	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éøñ”
+T
+java:S3400B"9Remove this method and declare a constant for this value.(Ö§”Óþÿÿÿÿ
+@
+java:S1172A"*Remove this unused method parameter "str".(Éøñ”
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ŸóÖñûÿÿÿÿ

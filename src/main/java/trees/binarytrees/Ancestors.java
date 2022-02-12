@@ -37,11 +37,11 @@ public class Ancestors {
     }
 
     // Works for BinaryTree
-    public static Node lowestCommonAncestor(Node root, Node alpha, Node beta) {
+    public static Node lowestCommonAncestor(Node root, int alpha, int beta) {
         if (root == null)
             return root;
 
-        if (root == alpha || root == beta)
+        if (root.value == alpha || root.value == beta)
             return root;
 
         Node left = lowestCommonAncestor(root.left, alpha, beta);
@@ -54,3 +54,4 @@ public class Ancestors {
     }
 
 }
+

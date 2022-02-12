@@ -9,8 +9,8 @@ import java.util.List;
 
 public class SpiralMatrix {
 
-    List<Integer> spiralOrder(int[][] matrix)
-    {
+    List<Integer> spiralOrder(int[][] matrix) {
+
         int k = 0, i = 0, j = 0;
         int m = matrix.length, n = matrix[0].length;
 

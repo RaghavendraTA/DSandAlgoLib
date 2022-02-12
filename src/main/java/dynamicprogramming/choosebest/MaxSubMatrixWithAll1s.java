@@ -18,7 +18,7 @@ public class MaxSubMatrixWithAll1s {
      *
      *
      * construct a sum matrix dp[m][n] for the given matrix mat[m][n]
-     *      copy first row and first columns as it from mat[][] to dp[][]
+     *      copy first row and first columns as it is from mat[][] to dp[][]
      *      for other entries, use the following expression to construct dp[][]
      *          if (mat[i][j])
      *              dp[i][j] = min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1

@@ -1,4 +1,4 @@
-package string.slidingwindow;
+package slidingwindow;
 
 /*
  * created by raghavendra.ta on 12-Jul-2021

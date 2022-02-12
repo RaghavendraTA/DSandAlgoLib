@@ -10,7 +10,7 @@ public class CombinationNcROfDigits {
 
     private final List<List<Integer>> temp = new ArrayList<>();
 
-    void combineUtil(List<Integer> subset, int j, int n, int r) {
+    void combineUtil(Stack<Integer> subset, int j, int n, int r) {
         if (subset.size() == r) {
             temp.add(new ArrayList<>(subset));
             return;
@@ -18,7 +18,7 @@ public class CombinationNcROfDigits {
         for(int i = j; i <= n; i++) {
             subset.add(i);
             combineUtil(subset, i + 1, n, r);
-            subset.remove(subset.size() - 1);
+            subset.pop();
         }
     }
 
@@ -27,7 +27,7 @@ public class CombinationNcROfDigits {
         if (r == 0) {
             return temp;
         }
-        combineUtil(new ArrayList<>(), 1, n, r);
+        combineUtil(new Stack<>(), 1, n, r);
         return temp;
     }
 

@@ -1,8 +1,10 @@
-package arrays.cache;
+package linkedlist.linkedlists;
 
 /*
  * created by raghavendra.ta on 05-Jul-2021
  */
+
+import arrays.cache.Node;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -76,7 +76,7 @@ public class KthPermutation {
     }
 
     public static void main(String[] args) {
-        System.out.println(getPermutation(3, 4));
+        System.out.println(getPermutation(4, 11));
     }
 
 }

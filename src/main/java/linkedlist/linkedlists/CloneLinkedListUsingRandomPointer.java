@@ -7,18 +7,18 @@ package linkedlist.linkedlists;
 import java.util.HashMap;
 import java.util.Map;
 
-class Node {
-    public int value;
-    public Node random;
-    public Node next;
-    Node (int value) {
-        this.value = value;
-        this.next = null;
-        this.random = null;
-    }
-}
-
 public class CloneLinkedListUsingRandomPointer {
+
+    static class Node {
+        public int value;
+        public Node random;
+        public Node next;
+        Node (int value) {
+            this.value = value;
+            this.next = null;
+            this.random = null;
+        }
+    }
 
     static Node clone(Node head) {
 

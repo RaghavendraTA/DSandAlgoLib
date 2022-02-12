@@ -17,7 +17,7 @@ public class CountWaysForBooleanParenthesized {
         int F[][] = new int[n][n];
         int T[][] = new int[n][n];
 
-        // Fill diaginal entries first
+        // Fill diagonal entries first
         // All diagonal entries in T[i][i]
         // are 1 if symbol[i] is T (true).
         // Similarly, all F[i][i] entries

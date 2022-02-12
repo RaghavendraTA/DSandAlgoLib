@@ -1,0 +1,14 @@
+
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(›²·îúÿÿÿÿ
+M	java:S106?"9Replace this use of System.out or System.err by a logger.(”›¿
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(¾ùê¤üÿÿÿÿ
+:
+java:S1659G"Declare "m" on a separate line.(ƒ•ºïıÿÿÿÿ
+:
+java:S1659H"Declare "v" on a separate line.(†±âùÿÿÿÿ
+Y
+java:S1155;">Use isEmpty() to check whether the collection is empty or not.(”Ìœ‘úÿÿÿÿ
+c
+java:S1104"MMake u a static final constant or non-public and provide accessors if needed.(“ìÔ“
+c
+java:S1104"MMake k a static final constant or non-public and provide accessors if needed.(ŸÇõ

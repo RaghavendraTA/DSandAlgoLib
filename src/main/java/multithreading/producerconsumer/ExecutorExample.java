@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 
-class Producer extends Thread {
+class Producer implements Runnable {
 
     private final LinkedBlockingQueue<Integer> queue;
 
@@ -28,7 +28,7 @@ class Producer extends Thread {
     }
 }
 
-class Consumer extends Thread {
+class Consumer implements Runnable {
 
     private final LinkedBlockingQueue<Integer> queue;
 

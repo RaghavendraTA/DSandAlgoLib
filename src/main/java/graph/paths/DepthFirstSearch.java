@@ -23,7 +23,7 @@ public class DepthFirstSearch {
             Stack<Integer> stack = new Stack<>();
             stack.add(key);
 
-            while (stack.size() > 0) {
+            while (!stack.isEmpty()) {
                 Integer node = stack.pop();
                 visited.add(node);
                 graph.getOrDefault(node, Collections.emptyList()).forEach(dest -> {

@@ -4,6 +4,7 @@ package multithreading.producerconsumer;
  * created by raghavendra.ta on 03-Jul-2021
  */
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.SynchronousQueue;
@@ -42,17 +43,14 @@ public class MultiThreadWait {
             e.printStackTrace();
         }
 
-        List<SampleThread> threadList = Arrays.asList(
-                new SampleThread("1", queue),
-                new SampleThread("2", queue),
-                new SampleThread("3", queue)
-        );
+        List<SampleThread> threadList = new ArrayList<>();
 
         for(int i = 0; i < 9; i++) {
             try {
-                SampleThread t = threadList.get(i % 3);
+                SampleThread t = new SampleThread(String.valueOf(i), queue);
                 t.start();
-                //t.join();
+                t.join();
+                threadList.add(t);
             }
             catch (Exception e) {
                 e.printStackTrace();

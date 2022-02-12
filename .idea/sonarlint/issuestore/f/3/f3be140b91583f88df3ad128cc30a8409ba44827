@@ -1,0 +1,10 @@
+
+8
+java:S2386"Make this member "protected".(²½Üˆøÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(€ŠÐ²
+Q	java:S125;"<This block of commented-out lines of code should be removed.(²Ï’Û
+N	java:S106="9Replace this use of System.out or System.err by a logger.(éÙæš
+l
+java:S1104"QMake table a static final constant or non-public and provide accessors if needed.(²½Üˆøÿÿÿÿ
+F
+java:S1444"+Make this "public static table" field final(²½Üˆøÿÿÿÿ

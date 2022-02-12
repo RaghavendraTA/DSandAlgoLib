@@ -14,6 +14,7 @@ package dynamicprogramming.subsequence;
  */
 public class LongestPalindromeSubstring {
 
+    // dp solution, to get length O(n^2)
     public static int lps(String str) {
         int max = 1;
         int n = str.length();
@@ -44,5 +45,29 @@ public class LongestPalindromeSubstring {
         }
 
         return max;
+    }
+
+    // dp solution to get string O(n^2)
+    public static String lps_string(String str) {
+        return "";
+    }
+
+    public static String lps_using_binary_search(String str) {
+        if (str == null || str.length() == 0 || str.length() == 1)
+            return str;
+        if (str.length() == 2)
+            return str.charAt(0) == str.charAt(1) ? str : str.charAt(0) + "";
+
+        return str;
+    }
+
+    // Mancher's Algorithm O(n)
+    public static String manchers_lps(String str) {
+        return "";
+    }
+
+    public static void main(String[] args) {
+        String name = "bb";
+        System.out.println(lps_using_binary_search(name));
     }
 }
