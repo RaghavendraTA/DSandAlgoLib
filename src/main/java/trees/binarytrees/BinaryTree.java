@@ -1,7 +1,6 @@
 package trees.binarytrees;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class BinaryTree<T> {
 
@@ -41,5 +40,20 @@ public class BinaryTree<T> {
     public void inorder() {
         inorder(root);
         System.out.println("\b\b\b");
+    }
+
+    public List<Integer> inorderUsingStack(BinaryNode<Integer> root) {
+        List<Integer> result = new ArrayList<>();
+        Stack<BinaryNode<Integer>> stck = new Stack<>();
+        while (root != null || !stck.isEmpty()) {
+            while (root != null) {
+                stck.push(root);
+                root = root.left;
+            }
+            root = stck.pop();
+            result.add(root.value);
+            root = root.right;
+        }
+        return result;
     }
 }

@@ -4,9 +4,7 @@ package trees.binarytrees;
  * created by raghavendra.ta on 11-Jul-2021
  */
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Stack;
+import java.util.*;
 
 public class Traversal {
 
@@ -103,6 +101,23 @@ public class Traversal {
             if (temp.right != null)
                 queue.addLast(temp.right);
         }
+    }
+
+    public void levelOrder(List<List<Integer>> result, BinaryNode<Integer> node, int level) {
+        if (node == null)
+            return;
+        if (result.size() < level) {
+            result.add(new ArrayList<>());
+        }
+        result.get(level - 1).add(node.value);
+        levelOrder(result, node.left, level + 1);
+        levelOrder(result, node.right, level + 1);
+    }
+
+    public List<List<Integer>> levelOrderWithResult(BinaryNode<Integer> root) {
+        List<List<Integer>> result = new ArrayList<>();
+        levelOrder(result, root, 1);
+        return result;
     }
 
 }

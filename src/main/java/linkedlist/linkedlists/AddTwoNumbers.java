@@ -106,12 +106,53 @@ public class AddTwoNumbers {
             result = temp;
         }
         if (carry > 0) {
-            Node temp = new Node(carry % 10);
-            carry /= 10;
+            Node temp = new Node(carry);
             temp.next = result;
             result = temp;
         }
         return result;
+    }
+
+    // Alternative solution when linkedList is straight using two stacks
+    static Node addTwoLists(Node l1, Node l2) {
+        Stack<Node> s1 = new Stack<>(), s2 = new Stack<>();
+        Node root = null;
+        while(l1 != null) {
+            s1.push(l1);
+            l1 = l1.next;
+        }
+        while(l2 != null) {
+            s2.push(l2);
+            l2 = l2.next;
+        }
+        int carry = 0;
+        while(!s1.isEmpty() && !s2.isEmpty()) {
+            int ans = s1.pop().value + s2.pop().value + carry;
+            Node n = new Node(ans % 10);
+            carry = ans / 10;
+            n.next = root;
+            root = n;
+        }
+        while(!s1.isEmpty()) {
+            int ans = s1.pop().value + carry;
+            Node n = new Node(ans % 10);
+            carry = ans / 10;
+            n.next = root;
+            root = n;
+        }
+        while(!s2.isEmpty()) {
+            int ans = s2.pop().value + carry;
+            Node n = new Node(ans % 10);
+            carry = ans / 10;
+            n.next = root;
+            root = n;
+        }
+        if (carry > 0) {
+            Node n = new Node(carry);
+            n.next = root;
+            root = n;
+        }
+        return root;
     }
 
     public static void main(String[] args) {

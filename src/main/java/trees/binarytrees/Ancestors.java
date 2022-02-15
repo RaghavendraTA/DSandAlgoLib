@@ -21,21 +21,6 @@ public class Ancestors {
         return false;
     }
 
-    // Works for BST
-    // The Shortest path between 2 nodes is nothing but LCA between 2 nodes
-    public static Node lowestCommonAncestorForGiven2Pointer(Node root, Node alpha, Node beta) {
-        while (true) {
-            if ((alpha.value < root.value && beta.value > root.value) ||
-                    (alpha.value > root.value && beta.value < root.value)) {
-                return root;
-            }
-            if (alpha.value < root.value)
-                root = root.left;
-            else
-                root = root.right;
-        }
-    }
-
     // Works for BinaryTree
     public static Node lowestCommonAncestor(Node root, int alpha, int beta) {
         if (root == null)

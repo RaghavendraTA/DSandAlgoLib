@@ -5,50 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/cache/LRUWithGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/search/MissingElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/google/MaxTimeToReachRecipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/google/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/BeautifulNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/tree/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/DeleteNodeWithoutHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/RemoveLoopInLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/intersectionPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/microsoft/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/microsoft/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/slidingwindow/BoundedSlice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/slidingwindow/MinSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/balancingtree/BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/MaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/TestInheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/MiddleElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTreeMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Paths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airthmetic/CombinationNcROfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/CombinationNcROfDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airthmetic/KthPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/airthmetic/KthPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/cache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/matrix/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/matrix/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/queues/InterLeavingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/InterLeavingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/CountWaysForBooleanParenthesized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/CountWaysForBooleanParenthesized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/IsStringSInT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/IsStringSInT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/MaxSubMatrixWithAll1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/choosebest/MaxSubMatrixWithAll1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestPalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/subsequence/LongestPalindromeSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geometry/PointsOnALine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graph/paths/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/DepthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/CloneLinkedListUsingRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/CloneLinkedListUsingRandomPointer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/FindIntersect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/producerconsumer/ExecutorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/producerconsumer/ExecutorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/producerconsumer/MultiThreadWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/producerconsumer/MultiThreadWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/slidingwindow/ContainWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slidingwindow/ContainWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/slidingwindow/MinWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slidingwindow/MinWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Ancestors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Ancestors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BuildTreeUsingPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BuildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/DiameterOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/DiameterOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/ZigZagTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/ZigZagTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/TreeUsingInorderAndPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/TreeUsingInorderAndPreorder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +89,13 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestInheritance">
-    <configuration name="AlienLanguageUsingTopological" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.paths.AlienLanguageUsingTopological" />
+  <component name="RunManager" selected="Application.TreeUsingInorderAndPreorder">
+    <configuration name="BinaryTreeMirror" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.binarytrees.BinaryTreeMirror" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.paths.*" />
+          <option name="PATTERN" value="trees.binarytrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +109,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graph.paths.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsStringSInT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.choosebest.IsStringSInT" />
-      <module name="DSLib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.choosebest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,23 +142,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeUsingInorderAndPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.binarytrees.TreeUsingInorderAndPreorder" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.binarytrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="run-node" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.IsStringSInT" />
-      <item itemvalue="Application.AlienLanguageUsingTopological" />
       <item itemvalue="Application.DepthOfDirectedAcyclicGraph" />
       <item itemvalue="Application.NumberOfIslands" />
       <item itemvalue="Application.TestInheritance" />
+      <item itemvalue="Application.BinaryTreeMirror" />
+      <item itemvalue="Application.TreeUsingInorderAndPreorder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeUsingInorderAndPreorder" />
+        <item itemvalue="Application.BinaryTreeMirror" />
         <item itemvalue="Application.TestInheritance" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.DepthOfDirectedAcyclicGraph" />
-        <item itemvalue="Application.AlienLanguageUsingTopological" />
-        <item itemvalue="Application.IsStringSInT" />
       </list>
     </recent_temporary>
   </component>

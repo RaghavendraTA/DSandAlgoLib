@@ -6,13 +6,11 @@ package trees.binarytrees;
 
 import arrays.cache.Node;
 
-import java.util.regex.Pattern;
-
-public class BuildTreeUsingPreorder {
+public class BuildTree {
 
     public static int i = 0;
 
-    public Node buildTree(String A) {
+    public Node usingPreorder(String A) {
 
         Node newNode = new Node(A.charAt(i));
 
@@ -20,10 +18,14 @@ public class BuildTreeUsingPreorder {
             return newNode;
 
         i++;
-        newNode.left = buildTree(A);
+        newNode.left = usingPreorder(A);
         i++;
-        newNode.right = buildTree(A);
+        newNode.right = usingPreorder(A);
 
         return newNode;
+    }
+
+    public static Node usingInorderAndPreorder() {
+        return null;
     }
 }

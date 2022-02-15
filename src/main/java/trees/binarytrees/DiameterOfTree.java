@@ -14,12 +14,12 @@ public class DiameterOfTree {
     public static int leftNode, rightNode;
 
     // This solution gives leftNode and rightNode as well.
-    public static Pair<Integer, Integer> diameterUsingRecursion(BinaryNode<Integer> root, BinaryNode<Integer> parent) {
+    public static Pair<Integer, Integer> diameterGetNodes(BinaryNode<Integer> root, BinaryNode<Integer> parent) {
         if (root == null)
             return new Pair<>(parent.value, 0);
 
-        Pair<Integer, Integer> left = diameterUsingRecursion(root.left, root);
-        Pair<Integer, Integer> right = diameterUsingRecursion(root.right, root);
+        Pair<Integer, Integer> left = diameterGetNodes(root.left, root);
+        Pair<Integer, Integer> right = diameterGetNodes(root.right, root);
 
         if (left.getValue() + right.getValue() > diameter) {
             diameter = left.getValue() + right.getValue();
@@ -40,9 +40,9 @@ public class DiameterOfTree {
     }
 
     // Starting point
-    public static int diameterOfBinaryTree(BinaryNode<Integer> root) {
+    public static int diameterGetNodes(BinaryNode<Integer> root) {
         diameter = 0;
-        diameterUsingRecursion(root, null);
+        diameterGetNodes(root, null);
         System.out.println("left = " + leftNode + ", right = " + rightNode);
         return diameter;
     }
@@ -67,9 +67,28 @@ public class DiameterOfTree {
         return ans;
     }
 
+    // Simplest solution
+    public static int diameterAns = 0;
+
+    public static int diameterUsingRecursion(BinaryNode<Integer> root) {
+        if (root == null)
+            return 0;
+        int left = diameterUsingRecursion(root.left);
+        int right = diameterUsingRecursion(root.right);
+        diameterAns = Math.max(diameterAns, left + right);
+        return Math.max(left, right) + 1;
+    }
+
+    // Starting point
+    public int diameterOfBinaryTree(BinaryNode<Integer> root) {
+        diameterAns = 0;
+        diameterUsingRecursion(root);
+        return diameterAns;
+    }
+
     public static void main(String[] args) {
         BinarySearchTree<Integer> tree = new BinarySearchTree<>();
         tree.insertAnArray(100, 50, 200, 40, 60, 300, 30, 61, 35, 62, 39, 63);
-        diameterOfBinaryTree(tree.getRoot());
+        diameterGetNodes(tree.getRoot());
     }
 }

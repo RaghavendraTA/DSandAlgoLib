@@ -4,6 +4,7 @@ package linkedlist.linkedlists;
  * created by raghavendra.ta on 22-Jun-2021
  */
 
+import arrays.cache.Node;
 import linkedlist.node.ListNode;
 
 import java.util.Stack;
@@ -68,6 +69,25 @@ public class ReverseLinkedList {
             temp = temp != null ? temp.getNext() : null;
         } while (current != null);
 
+        return prev;
+    }
+
+    // Working solution
+    public static Node reverseList(Node node) {
+
+        if (node == null || node.next == null)
+            return node;
+
+        Node prev = node;
+        Node cur = node.next;
+        prev.next = null;
+
+        while(cur != null) {
+            Node next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+        }
         return prev;
     }
 }
