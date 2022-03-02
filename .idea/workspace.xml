@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/MergeTwoSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/MiddleElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTreeMirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Paths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/array/KthLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/array/WaveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/google/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/AllSubTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/linkedlists/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Ancestors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Ancestors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BuildTreeUsingPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/BuildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/DiameterOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/DiameterOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/binarytrees/TreeUsingInorderAndPreorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/binarytrees/TreeUsingInorderAndPreorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greedy/BestTimeToBuyAndSellAStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greedy/BestTimeToBuyAndSellAStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trees/utils/IntPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/utils/IntPair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +84,13 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeUsingInorderAndPreorder">
-    <configuration name="BinaryTreeMirror" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.binarytrees.BinaryTreeMirror" />
+  <component name="RunManager" selected="Application.Dijkstra">
+    <configuration name="AllSubTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerearth.AllSubTree" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.binarytrees.*" />
+          <option name="PATTERN" value="hackerearth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthOfDirectedAcyclicGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.paths.DepthOfDirectedAcyclicGraph" />
+    <configuration name="BestTimeToBuyAndSellAStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.BestTimeToBuyAndSellAStock" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.paths.Dijkstra" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.graph.NumberOfIslands" />
+    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google.HIndex" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.graph.*" />
+          <option name="PATTERN" value="google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,25 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilities.TestInheritance" />
+    <configuration name="MaxValContiguousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.maxsubarray.MaxValContiguousSubArray" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeUsingInorderAndPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.binarytrees.TreeUsingInorderAndPreorder" />
-      <module name="DSLib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trees.binarytrees.*" />
+          <option name="PATTERN" value="dynamicprogramming.maxsubarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +154,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DepthOfDirectedAcyclicGraph" />
-      <item itemvalue="Application.NumberOfIslands" />
-      <item itemvalue="Application.TestInheritance" />
-      <item itemvalue="Application.BinaryTreeMirror" />
-      <item itemvalue="Application.TreeUsingInorderAndPreorder" />
+      <item itemvalue="Application.HIndex" />
+      <item itemvalue="Application.MaxValContiguousSubArray" />
+      <item itemvalue="Application.BestTimeToBuyAndSellAStock" />
+      <item itemvalue="Application.AllSubTree" />
+      <item itemvalue="Application.Dijkstra" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeUsingInorderAndPreorder" />
-        <item itemvalue="Application.BinaryTreeMirror" />
-        <item itemvalue="Application.TestInheritance" />
-        <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.DepthOfDirectedAcyclicGraph" />
+        <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.AllSubTree" />
+        <item itemvalue="Application.BestTimeToBuyAndSellAStock" />
+        <item itemvalue="Application.MaxValContiguousSubArray" />
+        <item itemvalue="Application.HIndex" />
       </list>
     </recent_temporary>
   </component>

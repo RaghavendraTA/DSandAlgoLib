@@ -21,15 +21,12 @@ public class MaxValContiguousSubArray {
         return maxSum;
     }
 
-    public static int solveWithoutAdditionalSpace(int[] a) {
-        int maxSum = a[0], sum = a[0];
-        for(int i = 1; i < a.length; i++) {
-            if (sum + a[i] > a[i]) {
-                sum += a[i];
-            } else {
-                sum = a[i];
-            }
-            maxSum = Math.max(sum, maxSum);
+    // solveWithoutAdditionalSpace
+    public static long kadanesAlgo(int[] arr) {
+        long sum = arr[0], maxSum = arr[0];
+        for(int i = 1; i < arr.length; i++) {
+            sum = Math.max(arr[i], arr[i] + sum);
+            maxSum = Math.max(maxSum, sum);
         }
         return maxSum;
     }
@@ -38,6 +35,6 @@ public class MaxValContiguousSubArray {
         int[] arr = new int[]{-1, 11, -4, 13, -5, 2};
         //int[] arr = new int[]{1, -3, 4, -2, -1, 6};
         System.out.println(solvingUsingDP(arr));
-        System.out.println(solveWithoutAdditionalSpace(arr));
+        System.out.println(kadanesAlgo(arr));
     }
 }

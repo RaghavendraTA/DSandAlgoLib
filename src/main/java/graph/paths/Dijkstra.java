@@ -7,6 +7,7 @@ package graph.paths;
 import trees.utils.IntPair;
 
 import java.util.*;
+import java.util.stream.IntStream;
 
 import static java.util.Arrays.asList;
 
@@ -41,9 +42,6 @@ public class Dijkstra {
             }
             distance.put(node.getKey(), node.getValue());
             for (IntPair dest : map.getOrDefault(node.getKey(), new ArrayList<>())) {
-                if (distance.containsKey(dest.getKey())) {
-                    continue;
-                }
                 queue.add(new IntPair(dest.getKey(), dest.getValue() + node.getValue()));
             }
         }
@@ -65,7 +63,8 @@ public class Dijkstra {
             if (distance.containsKey(node.getKey())) {
                 continue;
             }
-            distance.put(node.getKey(), node.getValue());
+            distance.putIfAbsent(node.getKey(), node.getValue());
+            distance.computeIfPresent(node.getKey(), (k, v) -> Math.min(v, node.getValue()));
             for(int i = 1; i <= n; i++) {
                 if (arr[node.getKey()][i] > 0 && !distance.containsKey(i)) {
                     queue.add(new IntPair(i, arr[node.getKey()][i] + node.getValue()));
@@ -80,9 +79,11 @@ public class Dijkstra {
 
         List<List<Integer>> edges = asList(
                 asList(1, 2, 1),
-                asList(1, 3, 2),
-                asList(3, 4, 1),
-                asList(2, 4, 10)
+                asList(1, 3, 3),
+                asList(1, 4, 6),
+                asList(2, 3, 1),
+                asList(2, 4, 5),
+                asList(3, 4, 1)
         );
 
         shortestPath(1, edges);
