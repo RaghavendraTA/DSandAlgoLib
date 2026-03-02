@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/array/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/array/WaveArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/google/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/AllSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedIn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Meta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopicsCategory.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uber.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SetsAndHashes/LetterCombinationsOfaPhoneNo_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SetsAndHashes/NestedListWeightSum_339.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/prefixsum/MaxSubArray_53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/randomnumbers/InsertDeleteGetRandomO1_380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/MaxStack_716.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/ValidParentheses_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicprogramming/maxsubarray/MaxValContiguousSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/paths/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/greedy/BestTimeToBuyAndSellAStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greedy/BestTimeToBuyAndSellAStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trees/utils/IntPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trees/utils/IntPair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +44,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownDocumentLinksSafeState">
+    <allowed-protocols>
+      <protocol value="jetbrains" />
+    </allowed-protocols>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1rquDwWTuv84rK4y42rNMJGZ34I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,25 +64,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../registrar-platform" />
-    <property name="ml.local.models.training.notification.expired" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CombinationNcROfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertDeleteGetRandomO1_380.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxStack_716.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/consistent-hasing-java&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\RaghavendraTA\OneDrive\Documents\vscode\DSLib\src\test" />
@@ -84,7 +92,7 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dijkstra">
+  <component name="RunManager" selected="Application.MaxStack_716">
     <configuration name="AllSubTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hackerearth.AllSubTree" />
       <module name="DSLib" />
@@ -98,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuyAndSellAStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.BestTimeToBuyAndSellAStock" />
+    <configuration name="CombinationNcROfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="airthmetic.CombinationNcROfDigits" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="airthmetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="google.HIndex" />
+    <configuration name="InsertDeleteGetRandomO1_380" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="randomnumbers.InsertDeleteGetRandomO1_380" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="google.*" />
+          <option name="PATTERN" value="randomnumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxValContiguousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.maxsubarray.MaxValContiguousSubArray" />
+    <configuration name="MaxStack_716" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.MaxStack_716" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.maxsubarray.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +162,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HIndex" />
-      <item itemvalue="Application.MaxValContiguousSubArray" />
-      <item itemvalue="Application.BestTimeToBuyAndSellAStock" />
       <item itemvalue="Application.AllSubTree" />
+      <item itemvalue="Application.CombinationNcROfDigits" />
       <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.InsertDeleteGetRandomO1_380" />
+      <item itemvalue="Application.MaxStack_716" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxStack_716" />
+        <item itemvalue="Application.InsertDeleteGetRandomO1_380" />
+        <item itemvalue="Application.CombinationNcROfDigits" />
         <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.AllSubTree" />
-        <item itemvalue="Application.BestTimeToBuyAndSellAStock" />
-        <item itemvalue="Application.MaxValContiguousSubArray" />
-        <item itemvalue="Application.HIndex" />
       </list>
     </recent_temporary>
   </component>
