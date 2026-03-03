@@ -5,8 +5,6 @@ package arrays.queues;
  */
 
 import arrays.cache.Node;
-import linkedlist.linkedlists.SingleLinkedList;
-import linkedlist.node.ListNode;
 
 import java.util.*;
 
