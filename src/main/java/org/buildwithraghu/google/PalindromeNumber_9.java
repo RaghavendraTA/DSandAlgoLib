@@ -1,4 +1,6 @@
-class Solution {
+package org.buildwithraghu.google;
+
+class PalindromeNumber_9 {
 	
 	public boolean isPalindrome(int x) {
 		int y = 0, t = x;
@@ -10,7 +12,7 @@ class Solution {
     }
 
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		PalindromeNumber_9 s = new PalindromeNumber_9();
 		System.out.println(s.isPalindrome(101));
 		System.out.println(s.isPalindrome(102));
 	}

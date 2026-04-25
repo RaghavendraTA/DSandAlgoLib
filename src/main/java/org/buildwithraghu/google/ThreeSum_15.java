@@ -1,8 +1,10 @@
+package org.buildwithraghu.google;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+class ThreeSum_15 {
 	
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
@@ -33,7 +35,7 @@ class Solution {
     }
 	
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		ThreeSum_15 s = new ThreeSum_15();
 		System.out.println(s.threeSum(new int[]{-1,0,1,2,-1,-4}));
 	}
 }

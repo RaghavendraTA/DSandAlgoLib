@@ -1,8 +1,10 @@
+package org.buildwithraghu.google;
+
 // 3. Longest Substring Without Repeating Characters
 
 import java.util.Arrays;
 
-class Solution {
+class LongestSubstringWithoutRepeatingCharacters_3 {
 	
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), maxLen = 0, start = 0;
@@ -20,7 +22,7 @@ class Solution {
     }
 	
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		LongestSubstringWithoutRepeatingCharacters_3 s = new LongestSubstringWithoutRepeatingCharacters_3();
 		System.out.println(s.lengthOfLongestSubstring("abba"));
 	}
 }

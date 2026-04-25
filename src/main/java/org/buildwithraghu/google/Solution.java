@@ -1,7 +1,9 @@
+package org.buildwithraghu.google;
+
 import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+class Solution_Google {
 
 	public List<List<Integer>> fourSum(int[] nums, int target) {
 		Arrays.sort(nums);
@@ -13,7 +15,7 @@ class Solution {
 	}
 	
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		Solution_Google s = new Solution_Google();
 		System.out.println("End");
 	}
 }

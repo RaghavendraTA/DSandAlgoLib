@@ -1,7 +1,9 @@
+package org.buildwithraghu.google;
+
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class GenerateParentheses_22 {
 	
 	public List<String> generateParenthesis(int n) {
         List<List<String>> dp = new ArrayList<>();
@@ -25,7 +27,7 @@ class Solution {
     }
 
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		GenerateParentheses_22 s = new GenerateParentheses_22();
 		System.out.println("Testing");
 	}
 }

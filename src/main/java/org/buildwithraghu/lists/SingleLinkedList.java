@@ -71,7 +71,8 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
     }
 
     @Override
-    public ListNode<T> getNode() {
+    @SuppressWarnings("unchecked")
+    public interfaces.list.LLNode<T> getNode() {
         return this.root;
     }
 
@@ -87,6 +88,12 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
 
     @Override
     public String toString() {
-        return toString(this);
+        StringBuilder sb = new StringBuilder();
+        ListNode<T> node = root;
+        while(node != null) {
+            sb.append(node.getValue()).append(" -> ");
+            node = node.getNext();
+        }
+        return sb.toString();
     }
 }

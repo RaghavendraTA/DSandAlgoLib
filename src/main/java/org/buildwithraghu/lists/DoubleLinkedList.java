@@ -1,5 +1,6 @@
 package linkedlist.linkedlists;
 
+import interfaces.list.LLNode;
 import interfaces.list.ListInterface;
 import linkedlist.node.DoubleLinkedNode;
 
@@ -11,7 +12,8 @@ public class DoubleLinkedList<T extends Comparable<T>> implements ListInterface<
     private DoubleLinkedNode<T> rootNode = null, lastNode = null;
 
     @Override
-    public DoubleLinkedNode<T> getNode() {
+    @SuppressWarnings("unchecked")
+    public LLNode<T> getNode() {
         return this.rootNode;
     }
 
@@ -96,7 +98,13 @@ public class DoubleLinkedList<T extends Comparable<T>> implements ListInterface<
 
     @Override
     public String toString() {
-        return toString(this);
+        StringBuilder sb = new StringBuilder();
+        DoubleLinkedNode<T> node = rootNode;
+        while(node != null) {
+            sb.append(node.getValue()).append(" <-> ");
+            node = node.getNext();
+        }
+        return sb.toString();
     }
 
     public void remove(T value) {

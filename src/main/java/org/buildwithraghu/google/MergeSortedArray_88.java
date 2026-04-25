@@ -1,4 +1,6 @@
-class Solution {
+package org.buildwithraghu.google;
+
+class MergeSortedArray_88 {
 	
 	public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int i = m + n - 1;
@@ -15,7 +17,7 @@ class Solution {
     }
 
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		MergeSortedArray_88 s = new MergeSortedArray_88();
 		System.out.println("Testing");
 	}
 }

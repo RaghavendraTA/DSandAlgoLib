@@ -1,3 +1,8 @@
+C:\projects\DSandAlgoLib\src\main\java\arrays\cache\Node.java
+C:\projects\DSandAlgoLib\src\main\java\interfaces\list\ListInterface.java
+C:\projects\DSandAlgoLib\src\main\java\interfaces\list\LLNode.java
+C:\projects\DSandAlgoLib\src\main\java\linkedlist\node\DoubleLinkedNode.java
+C:\projects\DSandAlgoLib\src\main\java\linkedlist\node\ListNode.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\airthmetic\CombinationNcROfDigits.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\airthmetic\CombinationSum.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\airthmetic\JosephsCircle.java
@@ -35,7 +40,6 @@ C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\HitCounter.
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\LRUCache.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\LRUWithGenerics.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\MinStack.java
-C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\Node.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\RandomizedSet.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\Trie.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\devideAndConquer\ClosestPairPoint.java
@@ -570,3 +574,7 @@ C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\uber\ConstructQuadTree
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\utils\ListNode.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\utils\Pair.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\utils\TreeNode.java
+C:\projects\DSandAlgoLib\src\main\java\trees\binarytrees\BinarySearchTree.java
+C:\projects\DSandAlgoLib\src\main\java\utilities\DirectedGraph.java
+C:\projects\DSandAlgoLib\src\main\java\utilities\TestSuite.java
+C:\projects\DSandAlgoLib\src\main\java\utilities\UnDirectedGraph.java

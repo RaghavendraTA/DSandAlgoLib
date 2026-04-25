@@ -1,4 +1,6 @@
-class Solution {
+package org.buildwithraghu.google;
+
+class TimeNeededtoRearrangeaBinaryString_2380 {
 	
 	public int secondsToRemoveOccurrences(String s) {
         StringBuilder sb = new StringBuilder(s);
@@ -28,7 +30,7 @@ class Solution {
 	}
 
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		TimeNeededtoRearrangeaBinaryString_2380 s = new TimeNeededtoRearrangeaBinaryString_2380();
 		int ans = s.secondsToRemoveOccurrences("11100");
 		System.out.println(ans);
 	}

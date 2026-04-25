@@ -1,7 +1,9 @@
+package org.buildwithraghu.google;
+
 import java.util.Map;
 import java.util.Stack;
 
-class Solution {
+class ValidParentheses_20 {
 	
 	private static final Map<Character, Character> map = Map.of('(', ')', '[', ']', '{', '}');
 	
@@ -19,7 +21,7 @@ class Solution {
     }
 
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		ValidParentheses_20 s = new ValidParentheses_20();
 		System.out.println("Testing");
 	}
 }
