@@ -5,28 +5,22 @@ import java.util.Stack;
 
 public class BinarySearchTree<T extends Comparable<T>> {
 
-    static class Node<T> {
-        T val;
-        Node<T> left = null;
-        Node<T> right = null;
+    protected BinaryNode<T> root = null;
 
-        public Node(T val) {
-            this.val = val;
+    public void insert(T value) {
+        root = _insert(root, value);
+    }
+
+    public void insertAnArray(T... values) {
+        for (T value : values) {
+            insert(value);
         }
     }
 
-    private Node<T> root = null;
-
-    @SafeVarargs
-    public BinarySearchTree(T...values) {
-        for(T v: values)
-            this.insert(v);
-    }
-
-    private Node<T> _insert(Node<T> node, Node<T> E) {
+    private BinaryNode<T> _insert(BinaryNode<T> node, T E) {
         if (node == null)
-            return E;
-        if (E.val.compareTo(node.val) <= 0) {
+            return new BinaryNode<>(E);
+        if (E.compareTo(node.value) <= 0) {
             node.left = _insert(node.left, E);
         } else {
             node.right = _insert(node.right, E);
@@ -34,13 +28,17 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return node;
     }
 
-    private boolean _search(Node<T> node, T E) {
+    public boolean search(T E) {
+        return _search(root, E);
+    }
+
+    private boolean _search(BinaryNode<T> node, T E) {
         if (node == null) {
             return false;
         }
-        if (E.compareTo(node.val) == 0) {
+        if (E.compareTo(node.value) == 0) {
             return true;
-        } else if (node.left != null && E.compareTo(node.val) < 0) {
+        } else if (node.left != null && E.compareTo(node.value) < 0) {
             return _search(node.left, E);
         } else if (node.right != null) {
             return _search(node.right, E);
@@ -48,19 +46,15 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return false;
     }
 
-    private Node<T> getSuccessor(Node<T> curr) {
-        curr = curr.right;
-        while (curr != null && curr.left != null) {
-            curr = curr.left;
-        }
-        return curr;
+    public void delete(T E) {
+        root = _delete(root, E);
     }
 
-    private Node<T> _delete(Node<T> node, T E) {
+    private BinaryNode<T> _delete(BinaryNode<T> node, T E) {
         if (node == null) return node;
-        if (E.compareTo(node.val) < 0) {
+        if (E.compareTo(node.value) < 0) {
             node.left = _delete(node.left, E);
-        } else if (E.compareTo(node.val) > 0) {
+        } else if (E.compareTo(node.value) > 0) {
             node.right = _delete(node.right, E);
         } else {
             if (node.left == null) {
@@ -69,33 +63,23 @@ public class BinarySearchTree<T extends Comparable<T>> {
             if (node.right == null) {
                 return node.left;
             }
-            Node<T> succ = getSuccessor(node);
-            node.val = succ.val;
-            node.right = _delete(node.right, succ.val);
+            BinaryNode<T> succ = getSuccessor(node);
+            node.value = succ.value;
+            node.right = _delete(node.right, succ.value);
         }
         return node;
     }
 
-    private void _levelOrder(Node<T> node, int c, ArrayList<ArrayList<T>> ls) {
-        if (node == null) return;
-        if (ls.size() <= c) {
-            ls.add(new ArrayList<>());
+    private BinaryNode<T> getSuccessor(BinaryNode<T> curr) {
+        curr = curr.right;
+        while (curr != null && curr.left != null) {
+            curr = curr.left;
         }
-        ls.get(c).add(node.val);
-        _levelOrder(node.left, c+1, ls);
-        _levelOrder(node.right,c+1, ls);
+        return curr;
     }
 
-    public void insert(T E) {
-        root = _insert(root, new Node<>(E));
-    }
-
-    public boolean search(T E) {
-        return _search(root, E);
-    }
-
-    public void delete(T E) {
-        root = _delete(root, E);
+    public BinaryNode<T> getRoot() {
+        return root;
     }
 
     public String levelOrder() {
@@ -109,18 +93,28 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return ans.toString();
     }
 
+    private void _levelOrder(BinaryNode<T> node, int c, ArrayList<ArrayList<T>> ls) {
+        if (node == null) return;
+        if (ls.size() <= c) {
+            ls.add(new ArrayList<>());
+        }
+        ls.get(c).add(node.value);
+        _levelOrder(node.left, c+1, ls);
+        _levelOrder(node.right, c+1, ls);
+    }
+
     @Override
     public String toString() {
         ArrayList<T> ans = new ArrayList<>();
-        Stack<Node<T>> stk = new Stack<>();
-        Node<T> node = root;
+        Stack<BinaryNode<T>> stk = new Stack<>();
+        BinaryNode<T> node = root;
         while(node != null || !stk.isEmpty()) {
             while(node != null) {
                 stk.push(node);
                 node = node.left;
             }
             node = stk.pop();
-            ans.add(node.val);
+            ans.add(node.value);
             node = node.right;
         }
         return ans.toString();

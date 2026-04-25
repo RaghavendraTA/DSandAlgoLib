@@ -1,4 +1,4 @@
-package dynamicprogramming.choosebest;
+package org.buildwithraghu.dynamicprogramming;
 
 /*
  * created by raghavendra.ta on 12-Jul-2021

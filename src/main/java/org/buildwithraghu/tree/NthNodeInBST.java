@@ -1,4 +1,4 @@
-package trees.binarytrees;
+package org.buildwithraghu.tree;
 
 /*
  * created by raghavendra.ta on 25-Jun-2021

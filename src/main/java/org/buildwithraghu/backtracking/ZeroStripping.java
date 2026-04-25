@@ -1,4 +1,4 @@
-package org.buildwithraghu.matrices;
+package org.buildwithraghu.backtracking;
 
 public class ZeroStripping {
 

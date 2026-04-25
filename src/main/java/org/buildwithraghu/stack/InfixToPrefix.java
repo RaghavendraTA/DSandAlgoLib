@@ -1,4 +1,4 @@
-package arrays.stack;
+package org.buildwithraghu.stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package arrays.cache;
+package org.buildwithraghu.designalgo;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;

@@ -1,4 +1,4 @@
-package greedy;
+package org.buildwithraghu.greedy;
 
 /*
  * created by raghavendra.ta on 12-Jul-2021

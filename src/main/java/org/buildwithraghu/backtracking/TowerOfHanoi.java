@@ -1,4 +1,4 @@
-package recursion;
+package org.buildwithraghu.backtracking;
 
 /*
  * created by raghavendra.ta on 22-Jun-2021

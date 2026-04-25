@@ -1,11 +1,6 @@
-package recursion;
+package org.buildwithraghu.backtracking;
 
-/*
- * created by raghavendra.ta on 20-Nov-2021
- */
-
-
-import utilities.TestSuite;
+import org.buildwithraghu.utilities.TestSuite;
 
 public class SumAndFactUsingDP extends TestSuite {
 

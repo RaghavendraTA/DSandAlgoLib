@@ -1,4 +1,4 @@
-package devideAndConquer;
+package org.buildwithraghu.devideAndConquer;
 
 /*
  * created by raghavendra.ta on 11-Jul-2021

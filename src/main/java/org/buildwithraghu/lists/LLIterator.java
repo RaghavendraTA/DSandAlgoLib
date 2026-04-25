@@ -1,16 +1,16 @@
-package linkedlist.linkedlists;
-
-import interfaces.list.ListInterface;
-import linkedlist.node.ListNode;
+package org.buildwithraghu.lists;
 
 import java.util.Iterator;
 
+import org.buildwithraghu.utilities.LLNode;
+import org.buildwithraghu.utilities.ListInterface;
+
 public class LLIterator<T> implements Iterator<T> {
 
-    private ListNode<T> cursor;
+    private LLNode<T> cursor;
 
     public LLIterator(ListInterface<T> linkedList) {
-        this.cursor = (ListNode<T>) linkedList.getNode();
+        this.cursor = (LLNode<T>) linkedList.getNode();
     }
 
     @Override

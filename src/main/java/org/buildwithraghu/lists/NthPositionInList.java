@@ -1,13 +1,9 @@
-package linkedlist.linkedlists;
-
-/*
- * created by raghavendra.ta on 25-Jun-2021
- */
-
-import interfaces.list.LLNode;
+package org.buildwithraghu.lists;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import org.buildwithraghu.utilities.LLNode;
 
 public class NthPositionInList {
 

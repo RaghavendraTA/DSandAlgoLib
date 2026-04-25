@@ -1,10 +1,10 @@
-package trees.binarytrees;
-
-import arrays.cache.Node;
+package org.buildwithraghu.tree;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
+
+import org.buildwithraghu.utilities.Node;
 
 public class Paths {
 

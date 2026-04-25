@@ -1,4 +1,4 @@
-package arrays.stack;
+package org.buildwithraghu.stack;
 
 /*
  * created by raghavendra.ta on 11-Jul-2021

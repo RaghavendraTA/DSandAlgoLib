@@ -1,4 +1,4 @@
-package linkedlist.linkedlists;
+package org.buildwithraghu.lists;
 
 /*
  * created by raghavendra.ta on 23-Jul-2021

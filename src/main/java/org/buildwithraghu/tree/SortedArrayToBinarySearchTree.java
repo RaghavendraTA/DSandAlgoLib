@@ -1,10 +1,6 @@
-package trees.binarytrees;
+package org.buildwithraghu.tree;
 
-/*
- * created by raghavendra.ta on 13-Jul-2021
- */
-
-import arrays.cache.Node;
+import org.buildwithraghu.utilities.Node;
 
 public class SortedArrayToBinarySearchTree {
 

@@ -1,14 +1,15 @@
-package linkedlist.linkedlists;
-
-import interfaces.list.ListInterface;
-import linkedlist.node.ListNode;
+package org.buildwithraghu.lists;
 
 import java.util.Arrays;
 import java.util.Iterator;
 
+import org.buildwithraghu.utilities.LLNode;
+import org.buildwithraghu.utilities.ListNode;
+import org.buildwithraghu.utilities.ListInterface;
+
 public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
 
-    private ListNode<T> root = null;
+    private LLNode<T> root = null;
 
     @Override
     public boolean isEmpty() {
@@ -17,7 +18,12 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
 
     @Override
     public void insertAtFront(T value) {
-        root = new ListNode<>(value, root);
+        LLNode<T> temp = new ListNode<>(value);
+        if (root == null) {
+            root = temp;
+            return;
+        }
+        root.setNext(temp);
     }
 
     @SafeVarargs
@@ -32,7 +38,7 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
             root = new ListNode<>(value);
             return;
         }
-        ListNode<T> temp = root;
+        LLNode<T> temp = root;
         while(temp.hasNext()) {
             temp = temp.getNext();
         }
@@ -59,7 +65,7 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
             root = null;
             return value;
         }
-        ListNode<T> temp = root, prev = null;
+        LLNode<T> temp = root, prev = null;
         while(temp.hasNext()) {
             prev = temp;
             temp = temp.getNext();
@@ -72,7 +78,7 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
 
     @Override
     @SuppressWarnings("unchecked")
-    public interfaces.list.LLNode<T> getNode() {
+    public org.buildwithraghu.utilities.LLNode<T> getNode() {
         return this.root;
     }
 
@@ -89,7 +95,7 @@ public class SingleLinkedList<T> implements ListInterface<T>, Iterable<T> {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        ListNode<T> node = root;
+        LLNode<T> node = root;
         while(node != null) {
             sb.append(node.getValue()).append(" -> ");
             node = node.getNext();

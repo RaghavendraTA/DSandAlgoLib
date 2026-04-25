@@ -1,4 +1,4 @@
-package airthmetic;
+package org.buildwithraghu.airthmetic;
 
 /*
  * created by raghavendra.ta on 13-Jul-2021

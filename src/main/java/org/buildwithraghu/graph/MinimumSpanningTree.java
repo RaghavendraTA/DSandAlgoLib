@@ -1,15 +1,11 @@
-package graph.paths;
-
-/*
- * created by raghavendra.ta on 22-Aug-2021
- */
-
-import utilities.DirectedGraph.Triplets;
-import utilities.UnDirectedGraph;
+package org.buildwithraghu.graph;
 
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
+
+import org.buildwithraghu.utilities.UnDirectedGraph;
+import org.buildwithraghu.utilities.DirectedGraph.Triplets;
 
 public class MinimumSpanningTree {
 

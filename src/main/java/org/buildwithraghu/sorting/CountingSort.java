@@ -1,4 +1,4 @@
-package sorting;
+package org.buildwithraghu.sorting;
 
 /*
  * created by raghavendra.ta on 11-Jul-2021

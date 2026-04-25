@@ -1,4 +1,4 @@
-package dynamicprogramming.subsequence;
+package org.buildwithraghu.dynamicprogramming;
 
 /*
  * created by raghavendra.ta on 02-Jul-2021

@@ -1,4 +1,4 @@
-package arrays.sort;
+package org.buildwithraghu.sorting;
 
 import java.util.Random;
 

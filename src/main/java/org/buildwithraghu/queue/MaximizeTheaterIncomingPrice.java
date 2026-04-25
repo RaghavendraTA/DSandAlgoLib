@@ -1,4 +1,4 @@
-package arrays.queues;
+package org.buildwithraghu.queue;
 
 /*
  * created by raghavendra.ta on 26-Jul-2021

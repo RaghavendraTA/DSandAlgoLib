@@ -1,10 +1,10 @@
-package arrays.stack;
+package org.buildwithraghu.stack;
+
+import org.buildwithraghu.tree.BinaryNode;
 
 /*
  * created by raghavendra.ta on 13-Jul-2021
  */
-
-import trees.binarytrees.BinaryNode;
 
 public class EvaluateExpressionTree {
 

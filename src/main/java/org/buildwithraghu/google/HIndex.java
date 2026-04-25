@@ -1,4 +1,4 @@
-package google;
+package org.buildwithraghu.google;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;

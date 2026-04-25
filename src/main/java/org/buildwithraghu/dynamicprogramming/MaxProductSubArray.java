@@ -1,4 +1,4 @@
-package dynamicprogramming.maxsubarray;
+package org.buildwithraghu.dynamicprogramming;
 
 /*
  * created by raghavendra.ta on 13-Jul-2021

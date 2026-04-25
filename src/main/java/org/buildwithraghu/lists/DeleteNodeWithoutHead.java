@@ -1,6 +1,6 @@
-package linkedlist.linkedlists;
+package org.buildwithraghu.lists;
 
-import arrays.cache.Node;
+import org.buildwithraghu.utilities.Node;
 
 public class DeleteNodeWithoutHead {
 

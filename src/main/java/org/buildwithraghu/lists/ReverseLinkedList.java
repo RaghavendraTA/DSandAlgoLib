@@ -1,19 +1,15 @@
-package linkedlist.linkedlists;
-
-/*
- * created by raghavendra.ta on 22-Jun-2021
- */
-
-import arrays.cache.Node;
-import linkedlist.node.ListNode;
+package org.buildwithraghu.lists;
 
 import java.util.Stack;
 
+import org.buildwithraghu.utilities.LLNode;
+import org.buildwithraghu.utils.ListNode;
+
 public class ReverseLinkedList {
 
-    public static ListNode<Integer> root = null;
+    public static LLNode<Integer> root = null;
 
-    public static ListNode<Integer> reverseRecursion(final ListNode<Integer> node) {
+    public static LLNode<Integer> reverseRecursion(final LLNode<Integer> node) {
 
         if (!node.hasNext()) {
             root = node;
@@ -23,7 +19,7 @@ public class ReverseLinkedList {
         return node;
     }
 
-    public static ListNode<Integer> reverseUsingRecursion(final ListNode<Integer> node) {
+    public static LLNode<Integer> reverseUsingRecursion(final LLNode<Integer> node) {
 
         if (node == null || !node.hasNext()) {
             return node;
@@ -32,20 +28,20 @@ public class ReverseLinkedList {
         return root;
     }
 
-    public static ListNode<Integer> reverseUsingStack(ListNode<Integer> node) {
+    public static LLNode<Integer> reverseUsingStack(LLNode<Integer> node) {
 
         if (node == null || !node.hasNext()) {
             return node;
         }
 
-        Stack<ListNode<Integer>> stack = new Stack<>();
+        Stack<LLNode<Integer>> stack = new Stack<>();
         stack.push(null);
         while (node != null) {
             stack.push(node);
             node = node.getNext();
         }
 
-        ListNode<Integer> root = stack.peek(), temp = stack.pop();
+        LLNode<Integer> root = stack.peek(), temp = stack.pop();
         while (!stack.isEmpty()) {
             temp.setNext(stack.pop());
             temp = temp.getNext();
@@ -54,13 +50,13 @@ public class ReverseLinkedList {
         return root;
     }
 
-    public static ListNode<Integer> reverseWithoutAdditionalSpace(final ListNode<Integer> node) {
+    public static LLNode<Integer> reverseWithoutAdditionalSpace(final LLNode<Integer> node) {
 
         if (node == null || !node.hasNext()) {
             return node;
         }
 
-        ListNode<Integer> prev = node, current = node.getNext(), temp = current.getNext();
+        LLNode<Integer> prev = node, current = node.getNext(), temp = current.getNext();
         prev.setNext(null);
         do {
             current.setNext(prev);
@@ -73,17 +69,17 @@ public class ReverseLinkedList {
     }
 
     // Working solution
-    public static Node reverseList(Node node) {
+    public static ListNode reverseList(ListNode node) {
 
         if (node == null || node.next == null)
             return node;
 
-        Node prev = node;
-        Node cur = node.next;
+        ListNode prev = node;
+        ListNode cur = node.next;
         prev.next = null;
 
         while(cur != null) {
-            Node next = cur.next;
+            ListNode next = cur.next;
             cur.next = prev;
             prev = cur;
             cur = next;

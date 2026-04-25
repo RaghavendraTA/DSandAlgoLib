@@ -1,4 +1,4 @@
-package slidingwindow;
+package org.buildwithraghu.slidingWindow;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

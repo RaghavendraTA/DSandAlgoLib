@@ -1,4 +1,4 @@
-package trees.binarytrees;
+package org.buildwithraghu.tree;
 
 public class MaxPathSum {
 

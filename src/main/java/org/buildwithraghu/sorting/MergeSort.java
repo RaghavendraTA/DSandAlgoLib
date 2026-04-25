@@ -1,7 +1,5 @@
 package org.buildwithraghu.sorting;
 
-import arrays.sort.ISortingAlgo;
-
 public class MergeSort implements ISortingAlgo {
 
     private static void merge(int[] arr, int l, int m, int r) {

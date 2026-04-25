@@ -27,7 +27,11 @@ public class SubscriberWorker implements Runnable {
                     }
                 }
                 Message message = topic.getMessages().get(curOffset);
-                topicSubscriber.getSubscriber().consume(message);
+                try {
+                    topicSubscriber.getSubscriber().consume(message);
+                } catch(Exception e) {
+                    // TODO: fix the exception caught
+                }
 
                 topicSubscriber.getOffset().compareAndSet(curOffset, curOffset + 1);
             } while (true);

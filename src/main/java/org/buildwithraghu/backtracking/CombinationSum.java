@@ -1,4 +1,4 @@
-package org.buildwithraghu.Combinatorics;
+package org.buildwithraghu.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;

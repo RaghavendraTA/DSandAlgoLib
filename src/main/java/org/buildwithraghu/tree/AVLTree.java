@@ -1,7 +1,4 @@
-package trees.balancingtree;
-
-import trees.binarytrees.BinaryNode;
-import trees.binarytrees.BinarySearchTree;
+package org.buildwithraghu.tree;
 
 public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
 

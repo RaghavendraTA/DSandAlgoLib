@@ -1,7 +1,5 @@
 package org.buildwithraghu.sorting;
 
-import arrays.sort.ISortingAlgo;
-
 import java.util.Random;
 
 public class BubbleSort implements ISortingAlgo {

@@ -1,11 +1,11 @@
-package linkedlist.linkedlists;
-
-import interfaces.list.LLNode;
-import interfaces.list.ListInterface;
-import linkedlist.node.DoubleLinkedNode;
+package org.buildwithraghu.lists;
 
 import java.util.Arrays;
 import java.util.Iterator;
+
+import org.buildwithraghu.utilities.DoubleLinkedNode;
+import org.buildwithraghu.utilities.LLNode;
+import org.buildwithraghu.utilities.ListInterface;
 
 public class DoubleLinkedList<T extends Comparable<T>> implements ListInterface<T>, Iterable<T> {
 

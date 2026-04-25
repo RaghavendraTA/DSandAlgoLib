@@ -1,4 +1,4 @@
-package dynamicprogramming.subsetsum;
+package org.buildwithraghu.dynamicprogramming;
 
 /*
  * created by raghavendra.ta on 30-Jun-2021

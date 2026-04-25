@@ -1,8 +1,8 @@
-package linkedlist.linkedlists;
-
-import arrays.cache.Node;
+package org.buildwithraghu.lists;
 
 import java.util.Stack;
+
+import org.buildwithraghu.utilities.Node;
 
 public class Palindrome {
 

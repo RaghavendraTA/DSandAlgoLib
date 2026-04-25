@@ -1,4 +1,4 @@
-package slidingwindow;
+package org.buildwithraghu.slidingWindow;
 
 /*
  * created by raghavendra.ta on 12-Jul-2021

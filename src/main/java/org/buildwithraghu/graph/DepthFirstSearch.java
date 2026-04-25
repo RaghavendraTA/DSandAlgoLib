@@ -1,4 +1,4 @@
-package graph.paths;
+package org.buildwithraghu.graph;
 
 /*
  * created by raghavendra.ta on 26-Jun-2021
