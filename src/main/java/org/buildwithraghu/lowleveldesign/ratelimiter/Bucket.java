@@ -11,7 +11,6 @@ public class Bucket {
     private long lastRefillTimeNanos;
     private long nanosPerToken;
     private long capacity;
-    @Getter
     private final ReentrantLock lock = new ReentrantLock();
 
     Bucket(long nowNanos, long capacity, long nanosPerToken) {
@@ -33,10 +32,6 @@ public class Bucket {
         } finally {
             lock.unlock();
         }
-    }
-
-    long getLastRefillTimeNanos() {
-        return lastRefillTimeNanos;
     }
 
     ReentrantLock getLock() {

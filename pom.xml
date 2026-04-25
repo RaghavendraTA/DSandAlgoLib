@@ -36,6 +36,10 @@
                             <version>1.18.30</version>
                         </path>
                     </annotationProcessorPaths>
+                    <excludes>
+                        <!-- Exclude all classes in a specific folder/package -->
+                        <exclude>org/buildwithraghu/Microsoft/*</exclude>
+                    </excludes>
                 </configuration>
             </plugin>
         </plugins>
