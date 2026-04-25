@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/queues/MergeKSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/queues/MergeKSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/sort/ISortValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/sort/ISortingAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/sort/SortProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/sort/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
