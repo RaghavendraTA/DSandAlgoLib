@@ -1,6 +1,7 @@
 package org.buildwithraghu.intervals;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class NonOverlappingIntervals {
     public int eraseOverlapIntervals(int[][] intervals) {

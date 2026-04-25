@@ -1,6 +1,7 @@
 package org.buildwithraghu.lowleveldesign.bloomfilter;
 
-import java.util.*;
+import java.util.BitSet;
+import java.util.List;
 
 public class BloomFilter {
 

@@ -1,7 +1,5 @@
 package org.buildwithraghu.searching;
 
-import java.util.*;
-
 public class MedianOfTwoArrays {
     public double findMedianSortedArrays_ON(int[] nums1, int[] nums2) {
         // Using O(m+n)

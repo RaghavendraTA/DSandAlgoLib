@@ -1,7 +1,5 @@
 package org.buildwithraghu.sorting;
 
-import java.util.Random;
-
 public class MergeSort {
 
     private static void merge(int[] arr, int l, int m, int r) {

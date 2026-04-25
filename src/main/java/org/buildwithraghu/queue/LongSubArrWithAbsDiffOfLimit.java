@@ -1,6 +1,7 @@
 package org.buildwithraghu.queue;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class LongSubArrWithAbsDiffOfLimit {
 

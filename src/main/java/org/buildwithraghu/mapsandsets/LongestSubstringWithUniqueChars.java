@@ -1,6 +1,6 @@
 package org.buildwithraghu.mapsandsets;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class LongestSubstringWithUniqueChars {
 

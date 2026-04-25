@@ -1,7 +1,5 @@
 package org.buildwithraghu;
 
-import java.util.*;
-
 class ListNode {
     int val;
     ListNode next;

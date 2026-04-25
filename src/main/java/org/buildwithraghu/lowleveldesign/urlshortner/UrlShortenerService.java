@@ -3,10 +3,9 @@ package org.buildwithraghu.lowleveldesign.urlshortner;
 import lombok.Getter;
 import org.buildwithraghu.lowleveldesign.urlshortner.enities.UrlRecord;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.concurrent.atomic.*;
-import java.time.*;
+import java.time.Duration;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class UrlShortenerService {
     @Getter

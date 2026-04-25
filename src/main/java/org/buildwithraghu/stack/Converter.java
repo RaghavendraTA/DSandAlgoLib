@@ -2,7 +2,6 @@ package arrays.stack;
 
 
 import java.util.*;
-import java.util.Stack;
 
 abstract class Converter {
 

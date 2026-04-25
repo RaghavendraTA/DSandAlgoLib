@@ -3,7 +3,7 @@ package org.buildwithraghu.lowleveldesign.parkinglot.strategy.fee;
 import org.buildwithraghu.lowleveldesign.parkinglot.entities.ParkingTicket;
 import org.buildwithraghu.lowleveldesign.parkinglot.vehicle.VehicleSize;
 
-import java.util.*;
+import java.util.Map;
 
 public class VehicleBasedStrategy implements FeeStrategy {
 

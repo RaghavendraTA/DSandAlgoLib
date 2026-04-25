@@ -2,7 +2,7 @@ package org.buildwithraghu.tree;
 
 import org.buildwithraghu.utils.TreeNode;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class BinaryTeeFromPreAndInorder {
 

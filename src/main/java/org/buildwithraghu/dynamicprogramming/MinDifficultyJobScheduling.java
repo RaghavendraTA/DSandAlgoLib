@@ -5,7 +5,6 @@ package dynamicprogramming.choosebest;
  */
 
 import java.util.Arrays;
-import java.util.List;
 
 public class MinDifficultyJobScheduling {
 

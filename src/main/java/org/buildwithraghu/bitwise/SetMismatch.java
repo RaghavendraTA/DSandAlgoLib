@@ -1,6 +1,6 @@
 package org.buildwithraghu.bitwise;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class SetMismatch {
     public int[] findErrorNums(int[] nums) {

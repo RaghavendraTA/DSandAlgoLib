@@ -2,7 +2,10 @@ package org.buildwithraghu.linkedin;
 
 import org.buildwithraghu.utils.Pair;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class LFUCache {
 

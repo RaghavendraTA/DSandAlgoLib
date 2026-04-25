@@ -1,6 +1,9 @@
 package org.buildwithraghu.lowleveldesign.EHCHospital;
 
-import org.buildwithraghu.lowleveldesign.EHCHospital.entities.*;
+import org.buildwithraghu.lowleveldesign.EHCHospital.entities.Hospital;
+import org.buildwithraghu.lowleveldesign.EHCHospital.entities.Patient;
+import org.buildwithraghu.lowleveldesign.EHCHospital.entities.Role;
+import org.buildwithraghu.lowleveldesign.EHCHospital.entities.User;
 
 import java.util.Scanner;
 import java.util.Set;

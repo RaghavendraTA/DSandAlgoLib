@@ -1,6 +1,7 @@
 package slidingwindow;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.PriorityQueue;
 
 /**
  * An integer K and a non-empty array A consisting of N integers are given.

@@ -2,7 +2,9 @@ package org.buildwithraghu.lowleveldesign.ridesharingservice.entities;
 
 import org.buildwithraghu.lowleveldesign.ridesharingservice.observer.TripObserver;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 public abstract class User implements TripObserver {
 

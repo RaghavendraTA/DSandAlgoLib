@@ -1,6 +1,7 @@
 package org.buildwithraghu.designalgo;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class HitCounter {
 

@@ -6,9 +6,9 @@ import org.buildwithraghu.lowleveldesign.ridesharingservice.observer.TripObserve
 import org.buildwithraghu.lowleveldesign.ridesharingservice.state.RequestedState;
 import org.buildwithraghu.lowleveldesign.ridesharingservice.state.TripState;
 
-import java.util.UUID;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class Trip {
     private final String id;

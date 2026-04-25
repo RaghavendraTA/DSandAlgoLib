@@ -1,6 +1,6 @@
 package org.buildwithraghu.bitwise;
 
-import java.util.*;
+import java.util.HashSet;
 
 public class XORofTwiceAppeared {
     public int duplicateNumbersXOR(int[] nums) {

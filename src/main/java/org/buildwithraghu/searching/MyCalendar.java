@@ -1,6 +1,6 @@
 package org.buildwithraghu.searching;
 
-import java.util.*;
+import java.util.TreeMap;
 
 // https://leetcode.com/problems/my-calendar-i/
 public class MyCalendar {

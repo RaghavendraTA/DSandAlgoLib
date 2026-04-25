@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
 	
 	private int getPivot(int[] nums) {

@@ -1,6 +1,7 @@
 package org.buildwithraghu.mapsandsets;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LetterCombinationsOfPhoneNumber {
     public static String[] symbols = new String[] {

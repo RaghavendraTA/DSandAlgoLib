@@ -1,6 +1,8 @@
 package org.buildwithraghu.tree;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /** <a href="https://leetcode.com/problems/search-suggestions-system">SearchSuggestionSystem</a> */
 public class SearchSuggestionSystem {

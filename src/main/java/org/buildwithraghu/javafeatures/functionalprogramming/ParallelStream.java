@@ -1,6 +1,7 @@
 package org.buildwithraghu.javafeatures.functionalprogramming;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

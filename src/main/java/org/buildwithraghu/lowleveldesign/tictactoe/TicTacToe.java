@@ -2,7 +2,10 @@ package org.buildwithraghu.lowleveldesign.tictactoe;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.buildwithraghu.lowleveldesign.tictactoe.entities.*;
+import org.buildwithraghu.lowleveldesign.tictactoe.entities.Board;
+import org.buildwithraghu.lowleveldesign.tictactoe.entities.GameStatus;
+import org.buildwithraghu.lowleveldesign.tictactoe.entities.Player;
+import org.buildwithraghu.lowleveldesign.tictactoe.entities.Symbol;
 
 import java.util.Scanner;
 

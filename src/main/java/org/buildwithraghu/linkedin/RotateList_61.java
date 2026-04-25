@@ -1,8 +1,6 @@
 package org.buildwithraghu.linkedin;
 
 
-import org.buildwithraghu.lists.LinkedListLoop;
-
 public class RotateList_61 {
 
     static class ListNode {

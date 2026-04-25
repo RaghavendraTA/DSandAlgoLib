@@ -1,6 +1,8 @@
 package org.buildwithraghu.graph;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Queue;
 
 public class BiPartite {
 

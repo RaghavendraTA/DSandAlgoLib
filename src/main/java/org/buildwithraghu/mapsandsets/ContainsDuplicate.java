@@ -1,6 +1,7 @@
 package org.buildwithraghu.mapsandsets;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class ContainsDuplicate {
 

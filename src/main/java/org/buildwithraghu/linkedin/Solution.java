@@ -1,7 +1,7 @@
 package org.buildwithraghu.linkedin;
 
 
-import java.util.*;
+import java.util.Arrays;
 
 public class Solution {
 

@@ -1,6 +1,6 @@
 package org.buildwithraghu.Combinatorics;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class Permutations {
 

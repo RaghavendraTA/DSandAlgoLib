@@ -1,6 +1,8 @@
 package org.buildwithraghu.revision;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 
 public class ValidateSudoku_36 {
 

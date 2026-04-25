@@ -2,7 +2,8 @@ package org.buildwithraghu.lowleveldesign.tictactoe.patterns.observerpattern;
 
 import org.buildwithraghu.lowleveldesign.tictactoe.entities.Board;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GameSubject {
 

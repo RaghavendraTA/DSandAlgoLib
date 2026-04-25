@@ -1,6 +1,7 @@
 package org.buildwithraghu.pointers;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class PairsOfDiffK {
     public int countKDifference(int[] nums, int k) {

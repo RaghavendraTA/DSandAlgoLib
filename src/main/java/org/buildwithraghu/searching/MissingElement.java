@@ -1,6 +1,7 @@
 package arrays.search;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MissingElement {
 

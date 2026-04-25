@@ -10,8 +10,5 @@
         <module name="DSLib" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DSLib" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -10,7 +10,10 @@ import org.buildwithraghu.lowleveldesign.parkinglot.strategy.parking.BestFitStra
 import org.buildwithraghu.lowleveldesign.parkinglot.strategy.parking.ParkingStrategy;
 import org.buildwithraghu.lowleveldesign.parkinglot.vehicle.Vehicle;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ParkingLot {

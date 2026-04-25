@@ -1,6 +1,8 @@
 package org.buildwithraghu.stack;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
 
 // https://leetcode.com/problems/daily-temperatures/
 public class DailyTemperature {

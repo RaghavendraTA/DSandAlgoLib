@@ -6,7 +6,10 @@ import org.buildwithraghu.lowleveldesign.tictactoe.TicTacToe;
 import org.buildwithraghu.lowleveldesign.tictactoe.patterns.observerpattern.GameSubject;
 import org.buildwithraghu.lowleveldesign.tictactoe.patterns.statepattern.GameState;
 import org.buildwithraghu.lowleveldesign.tictactoe.patterns.statepattern.InProgressState;
-import org.buildwithraghu.lowleveldesign.tictactoe.patterns.strategypatterns.*;
+import org.buildwithraghu.lowleveldesign.tictactoe.patterns.strategypatterns.ColumnWinningStrategy;
+import org.buildwithraghu.lowleveldesign.tictactoe.patterns.strategypatterns.DiagonalWinningStrategy;
+import org.buildwithraghu.lowleveldesign.tictactoe.patterns.strategypatterns.RowWinningStrategy;
+import org.buildwithraghu.lowleveldesign.tictactoe.patterns.strategypatterns.WinningStrategy;
 
 import java.util.List;
 

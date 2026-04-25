@@ -1,6 +1,6 @@
 package org.buildwithraghu.linearDS;
 
-import java.util.*;
+import java.util.HashMap;
 
 public class LRUCache {
 

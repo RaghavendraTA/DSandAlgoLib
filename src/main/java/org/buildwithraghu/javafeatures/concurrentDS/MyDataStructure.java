@@ -1,7 +1,5 @@
 package org.buildwithraghu.javafeatures.concurrentDS;
 
-import java.util.*;
-
 public class MyDataStructure {
 
     static class Node {
