@@ -35,6 +35,14 @@ public class Bucket {
         }
     }
 
+    long getLastRefillTimeNanos() {
+        return lastRefillTimeNanos;
+    }
+
+    ReentrantLock getLock() {
+        return lock;
+    }
+
     void refillIfNeeded(long nowNanos) {
         if (nowNanos <= lastRefillTimeNanos) return;
         long elapsed = nowNanos - lastRefillTimeNanos;

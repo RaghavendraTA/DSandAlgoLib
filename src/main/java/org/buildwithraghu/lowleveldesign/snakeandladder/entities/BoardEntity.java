@@ -1,8 +1,5 @@
 package org.buildwithraghu.lowleveldesign.snakeandladder.entities;
 
-import lombok.Getter;
-
-@Getter
 abstract public class BoardEntity {
     private final int start;
     private final int end;
@@ -10,5 +7,13 @@ abstract public class BoardEntity {
     public BoardEntity(int start, int end) {
         this.start = start;
         this.end = end;
+    }
+
+    public int getStart() {
+        return start;
+    }
+
+    public int getEnd() {
+        return end;
     }
 }

@@ -1,6 +1,5 @@
 package org.buildwithraghu.lowleveldesign.parkinglot;
 
-import lombok.Setter;
 import org.buildwithraghu.lowleveldesign.parkinglot.entities.ParkingFloor;
 import org.buildwithraghu.lowleveldesign.parkinglot.entities.ParkingSpot;
 import org.buildwithraghu.lowleveldesign.parkinglot.entities.ParkingTicket;
@@ -20,10 +19,16 @@ public class ParkingLot {
     private static ParkingLot instance;
     private final List<ParkingFloor> floors = new ArrayList<>();
     private final Map<String, ParkingTicket> activeTickets;
-    @Setter
     private FeeStrategy feeStrategy;
-    @Setter
     private ParkingStrategy parkingStrategy;
+
+    public void setFeeStrategy(FeeStrategy feeStrategy) {
+        this.feeStrategy = feeStrategy;
+    }
+
+    public void setParkingStrategy(ParkingStrategy parkingStrategy) {
+        this.parkingStrategy = parkingStrategy;
+    }
 
     private ParkingLot() {
         this.feeStrategy = new FlatRateStrategy();

@@ -35,7 +35,23 @@ public class ParkingSpot {
         this.isOccupied = false;
     }
 
-    public boolean canFitVehicle(Vehicle vehicle) {
+     public Vehicle getParkedVehicle() {
+        return parkedVehicle;
+    }
+
+    public String getSpotId() {
+        return spotId;
+    }
+
+   public VehicleSize getSpotSize() {
+        return spotSize;
+    }
+
+    public boolean isOccupied() {
+        return isOccupied;
+    }
+
+   public boolean canFitVehicle(Vehicle vehicle) {
         if (isOccupied) return false;
 
         return switch (vehicle.getSize()) {

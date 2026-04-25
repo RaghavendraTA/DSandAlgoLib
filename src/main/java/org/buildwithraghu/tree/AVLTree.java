@@ -10,7 +10,6 @@ public class AVLTree<T extends Comparable<T>> extends BinarySearchTree<T> {
         this.root = insert(value, this.root);
     }
 
-    @Override
     protected BinaryNode<T> insert(T value, BinaryNode<T> node) {
         if (node == null) {
             return new BinaryNode<>(value);

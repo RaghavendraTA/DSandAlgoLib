@@ -1,5 +1,8 @@
 package arrays.sort;
 
+import org.buildwithraghu.sorting.BubbleSort;
+import org.buildwithraghu.sorting.MergeSort;
+
 
 public class SortProvider {
 

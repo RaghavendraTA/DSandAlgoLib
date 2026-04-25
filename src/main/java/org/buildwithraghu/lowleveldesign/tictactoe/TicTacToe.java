@@ -1,7 +1,5 @@
 package org.buildwithraghu.lowleveldesign.tictactoe;
 
-import lombok.Getter;
-import lombok.Setter;
 import org.buildwithraghu.lowleveldesign.tictactoe.entities.Board;
 import org.buildwithraghu.lowleveldesign.tictactoe.entities.GameStatus;
 import org.buildwithraghu.lowleveldesign.tictactoe.entities.Player;
@@ -13,8 +11,15 @@ public class TicTacToe {
 
     private final Board board = new Board();
 
-    @Getter @Setter
     private Player curPlayer;
+
+    public Player getCurPlayer() {
+        return curPlayer;
+    }
+
+    public void setCurPlayer(Player curPlayer) {
+        this.curPlayer = curPlayer;
+    }
 
     private Player firstPlayer, secondPlayer;
 

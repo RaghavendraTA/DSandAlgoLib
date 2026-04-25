@@ -11,6 +11,12 @@ public class BinarySearchTree<T extends Comparable<T>> {
         root = _insert(root, value);
     }
 
+    public void insertAnArray(T... values) {
+        for (T value : values) {
+            insert(value);
+        }
+    }
+
     private BinaryNode<T> _insert(BinaryNode<T> node, T E) {
         if (node == null)
             return new BinaryNode<>(E);

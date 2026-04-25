@@ -4,7 +4,7 @@ package linkedlist.linkedlists;
  * created by raghavendra.ta on 25-Jun-2021
  */
 
-import linkedlist.node.ListNode;
+import interfaces.list.LLNode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,9 +12,9 @@ import java.util.Map;
 public class NthPositionInList {
 
     public static int nthPositionFromLast(int n, SingleLinkedList<Integer> list) {
-        Map<Integer, ListNode<Integer>> map = new HashMap<>();
+        Map<Integer, LLNode<Integer>> map = new HashMap<>();
         int index = 1;
-        ListNode<Integer> node = list.getNode();
+        LLNode<Integer> node = list.getNode();
         while(node != null) {
             map.put(index, node);
             node = node.getNext();
@@ -24,10 +24,10 @@ public class NthPositionInList {
         return map.containsKey(n) ? map.get(n).getValue() : -1;
     }
 
-    public static ListNode<Integer> tempNode;
+    public static LLNode<Integer> tempNode;
     public static int p;
 
-    public static void nthPosFromLastUsingRecursion(int n, ListNode<Integer> node) {
+    public static void nthPosFromLastUsingRecursion(int n, LLNode<Integer> node) {
         if (node == null) {
             return;
         }

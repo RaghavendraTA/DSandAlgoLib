@@ -1,6 +1,5 @@
 package org.buildwithraghu.lowleveldesign.urlshortner;
 
-import lombok.Getter;
 import org.buildwithraghu.lowleveldesign.urlshortner.enities.UrlRecord;
 
 import java.time.Duration;
@@ -8,10 +7,13 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class UrlShortenerService {
-    @Getter
     private final ConcurrentHashMap<String, UrlRecord> codeToUrl = new ConcurrentHashMap<>();
     private final ConcurrentHashMap<String, String> originalToCode = new ConcurrentHashMap<>();
     private final AtomicLong idGenerator = new AtomicLong(1);
+
+    public ConcurrentHashMap<String, UrlRecord> getCodeToUrl() {
+        return codeToUrl;
+    }
 
     // Generate short URL automatically
     public String create(String originalUrl, Duration ttl) {

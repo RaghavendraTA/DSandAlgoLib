@@ -22,4 +22,16 @@ public class Hospital {
                 UserType.CARE_GIVER, Role.RU
         );
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getRegistrationId() {
+        return registrationId;
+    }
+
+    public Map<UserType, Role> getUserRoleMap() {
+        return userRoleMap;
+    }
 }

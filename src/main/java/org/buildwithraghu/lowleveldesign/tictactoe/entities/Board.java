@@ -1,7 +1,5 @@
 package org.buildwithraghu.lowleveldesign.tictactoe.entities;
 
-import lombok.Getter;
-import lombok.Setter;
 import org.buildwithraghu.lowleveldesign.tictactoe.TicTacToe;
 import org.buildwithraghu.lowleveldesign.tictactoe.patterns.observerpattern.GameSubject;
 import org.buildwithraghu.lowleveldesign.tictactoe.patterns.statepattern.GameState;
@@ -15,17 +13,41 @@ import java.util.List;
 
 public class Board extends GameSubject {
 
-    @Getter
     private Symbol[][] board;
 
-    @Getter @Setter
     private GameStatus status;
 
-    @Getter @Setter
     private Player winner;
 
-    @Getter @Setter
     private GameState state;
+
+    public Symbol[][] getBoard() {
+        return board;
+    }
+
+    public GameStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(GameStatus status) {
+        this.status = status;
+    }
+
+    public Player getWinner() {
+        return winner;
+    }
+
+    public void setWinner(Player winner) {
+        this.winner = winner;
+    }
+
+    public GameState getState() {
+        return state;
+    }
+
+    public void setState(GameState state) {
+        this.state = state;
+    }
 
     private final List<WinningStrategy> strategies = List.of(
         new RowWinningStrategy(),

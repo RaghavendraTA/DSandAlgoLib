@@ -15,7 +15,6 @@ public class Game {
     private GameStatus status;
     private Player winner;
 
-    @Getter
     static class GameBuilder {
         private Board board;
         private Queue<Player> players;
@@ -44,6 +43,18 @@ public class Game {
                 throw new IllegalArgumentException("Board, players and Dic must be set.");
             }
             return new Game(this);
+        }
+
+        public Board getBoard() {
+            return board;
+        }
+
+        public Queue<Player> getPlayers() {
+            return players;
+        }
+
+        public Dice getDice() {
+            return dice;
         }
     }
 

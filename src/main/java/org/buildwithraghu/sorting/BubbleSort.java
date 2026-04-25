@@ -1,10 +1,13 @@
 package org.buildwithraghu.sorting;
 
+import arrays.sort.ISortingAlgo;
+
 import java.util.Random;
 
-public class BubbleSort {
+public class BubbleSort implements ISortingAlgo {
 
-    public static void sort(int[] arr) {
+    @Override
+    public void sort(int[] arr) {
         int n = arr.length;
         for(int i = 0; i < n; i++) {
             for(int j = i + 1; j < n; j++) {
@@ -23,7 +26,7 @@ public class BubbleSort {
         for(int i = 0; i < 10; i++) {
             arr[i] = random.nextInt(0, 10);
         }
-        BubbleSort.sort(arr);
+        new BubbleSort().sort(arr);
         for(int i: arr) {
             System.out.print(i + ", ");
         }

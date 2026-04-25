@@ -1,17 +1,18 @@
 package org.buildwithraghu.lowleveldesign.snakeandladder.entities;
 
-import lombok.Getter;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Board {
 
-    @Getter
     private final int size;
 
     private final Map<Integer, Integer> snakeAndLadders;
+
+    public int getSize() {
+        return size;
+    }
 
     public Board(int size, List<BoardEntity> entities) {
         this.size = size;

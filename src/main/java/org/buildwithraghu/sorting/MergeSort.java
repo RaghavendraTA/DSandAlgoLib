@@ -1,6 +1,8 @@
 package org.buildwithraghu.sorting;
 
-public class MergeSort {
+import arrays.sort.ISortingAlgo;
+
+public class MergeSort implements ISortingAlgo {
 
     private static void merge(int[] arr, int l, int m, int r) {
         int i = l, j = m + 1, k = 0, len = r - l + 1;
@@ -17,7 +19,7 @@ public class MergeSort {
         System.arraycopy(t, 0, arr, l, len);
     }
 
-    private static void mergeSort(int[] arr, int l, int r) {
+    private void mergeSort(int[] arr, int l, int r) {
         if (l >= r) return;
         int m = (l + r) / 2;
         mergeSort(arr, l, m);
@@ -25,7 +27,8 @@ public class MergeSort {
         merge(arr, l, m, r);
     }
 
-    public static void sort(int[] arr) {
+    @Override
+    public void sort(int[] arr) {
         mergeSort(arr, 0, arr.length - 1);
     }
 
@@ -36,7 +39,7 @@ public class MergeSort {
         for (int i = 0; i < 10; i++) {
             arr[i] = newInt--;
         }
-        sort(arr);
+        new MergeSort().sort(arr);
         for (int i : arr) {
             System.out.print(i + ", ");
         }
