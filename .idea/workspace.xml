@@ -5,37 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/MedianofTwoSortedArrays_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/CompactSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/OversizedSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/RegularSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/BaseFareStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/FareCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/FareStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/PeakHourStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/RateLimiterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/RateLimiterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/core/RateLimitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/core/RateLimiterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/core/RateLimiterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/core/StrategyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/FixedWindowStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/LeakyBucketStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/SlidingWindowStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/TokenBucketStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/CopyListwithRandomPointer_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/CopyListwithRandomPointer_138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/google/MedianofTwoSortedArrays_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLotDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/fee/FeeStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/fee/FlatRateStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/fee/VehicleBasedStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/BestFitStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/FarthestFirstStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/NearestFirstStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/ParkingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/buildwithraghu/linkedin/linkedin_interviews.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/buildwithraghu/lowleveldesign/EHCHospital/discription.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/buildwithraghu/lowleveldesign/loggingframework/loggingframework.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/Bucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/TokenBucketRateLimiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/TokenBucketRateLimiterDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -48,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,6 +75,7 @@
     "Application.InsertDeleteGetRandomO1_380.executor": "Debug",
     "Application.MaxStack_716.executor": "Run",
     "Application.ParkingLotDemo.executor": "Run",
+    "Application.RateLimiterDemo.executor": "Run",
     "Application.Solution.executor": "Run",
     "Maven.DSLib [clean].executor": "Run",
     "Maven.DSLib [compile].executor": "Run",
@@ -115,6 +100,7 @@
       <recent name="C:\Users\RaghavendraTA\OneDrive\Documents\vscode\DSLib\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.buildwithraghu.lowleveldesign.ratelimiter" />
       <recent name="" />
       <recent name="string" />
       <recent name="backtracking.recursion" />
@@ -124,7 +110,7 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParkingLotDemo">
+  <component name="RunManager" selected="Application.RateLimiterDemo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.LRUCache.Demo" />
       <module name="DSLib" />
@@ -151,12 +137,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RateLimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.ratelimiter.RateLimiterDemo" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.ratelimiter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ParkingLotDemo" />
+      <item itemvalue="Application.RateLimiterDemo" />
       <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RateLimiterDemo" />
         <item itemvalue="Application.ParkingLotDemo" />
         <item itemvalue="Application.Demo" />
       </list>
