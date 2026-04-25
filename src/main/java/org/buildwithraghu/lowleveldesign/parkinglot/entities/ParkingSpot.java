@@ -4,61 +4,52 @@ import lombok.Getter;
 import org.buildwithraghu.lowleveldesign.parkinglot.vehicle.Vehicle;
 import org.buildwithraghu.lowleveldesign.parkinglot.vehicle.VehicleSize;
 
-public class ParkingSpot {
+public abstract class ParkingSpot {
 
-    @Getter
-    private final String spotId;
-    @Getter
-    private boolean isOccupied;
-    @Getter
-    private final VehicleSize spotSize;
-    private Vehicle parkedVehicle;
+    private final String id;
+    private final VehicleSize size;
+    private Vehicle currentVehicle;
 
-    public ParkingSpot(String spotId, VehicleSize spotSize) {
-        this.spotId = spotId;
-        this.spotSize = spotSize;
-        this.isOccupied = false;
-        this.parkedVehicle = null;
+    protected ParkingSpot(String id, VehicleSize size) {
+        this.id = id;
+        this.size = size;
     }
 
-    public synchronized boolean isAvailable() {
-        return !isOccupied;
+    public String getId() {
+        return id;
     }
 
-    public synchronized void parkVehicle(Vehicle vehicle) {
-        this.parkedVehicle = vehicle;
-        this.isOccupied = true;
-    }
-
-    public synchronized void unparkVehicle() {
-        this.parkedVehicle = null;
-        this.isOccupied = false;
-    }
-
-     public Vehicle getParkedVehicle() {
-        return parkedVehicle;
-    }
-
-    public String getSpotId() {
-        return spotId;
-    }
-
-   public VehicleSize getSpotSize() {
-        return spotSize;
+    public VehicleSize getSize() {
+        return size;
     }
 
     public boolean isOccupied() {
-        return isOccupied;
+        return currentVehicle != null;
     }
 
-   public boolean canFitVehicle(Vehicle vehicle) {
-        if (isOccupied) return false;
+    public boolean canFit(Vehicle vehicle) {
+        return !isOccupied() && size.ordinal() >= vehicle.getSize().ordinal();
+    }
 
-        return switch (vehicle.getSize()) {
-            case SMALL -> spotSize == VehicleSize.SMALL;
-            case MEDIUM -> spotSize == VehicleSize.MEDIUM || spotSize == VehicleSize.LARGE;
-            case LARGE -> spotSize == VehicleSize.LARGE;
-            default -> false;
-        };
+    public void assignVehicle(Vehicle vehicle) {
+        if (!canFit(vehicle)) {
+            throw new IllegalStateException("Vehicle " + vehicle + " cannot fit into spot " + id);
+        }
+        this.currentVehicle = vehicle;
+    }
+
+    public Vehicle removeVehicle() {
+        Vehicle vehicle = currentVehicle;
+        currentVehicle = null;
+        return vehicle;
+    }
+
+    public Vehicle getCurrentVehicle() {
+        return currentVehicle;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + "[id=" + id + ", size=" + size + ", occupied=" + isOccupied() + "]";
     }
 }

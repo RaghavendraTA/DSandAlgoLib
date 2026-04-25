@@ -3,10 +3,6 @@ import java.util.Map;
 
 class Solution {
 	
-	static class Node {
-		
-	}
-	
 	public Node copyRandomList(Node head) {
         if (head == null)
             return null;

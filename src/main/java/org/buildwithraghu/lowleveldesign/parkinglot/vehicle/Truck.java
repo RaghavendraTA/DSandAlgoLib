@@ -1,7 +1,7 @@
 package org.buildwithraghu.lowleveldesign.parkinglot.vehicle;
 
 public class Truck extends Vehicle {
-    public Truck(String licenseNumber) {
-        super(licenseNumber, VehicleSize.LARGE);
+    public Truck(String licensePlate) {
+        super(licensePlate, VehicleSize.LARGE);
     }
 }

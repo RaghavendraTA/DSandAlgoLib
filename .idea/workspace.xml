@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/MedianofTwoSortedArrays_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/CompactSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/OversizedSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/RegularSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/BaseFareStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/FareCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/FareStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/PeakHourStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/CopyListwithRandomPointer_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/CopyListwithRandomPointer_138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/google/MedianofTwoSortedArrays_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/ParkingLotDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/entities/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/fee/FeeStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/fee/FlatRateStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/fee/VehicleBasedStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/BestFitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/FarthestFirstStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/NearestFirstStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/strategy/parking/ParkingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/parkinglot/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/buildwithraghu/linkedin/linkedin_interviews.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/buildwithraghu/lowleveldesign/EHCHospital/discription.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/buildwithraghu/lowleveldesign/loggingframework/loggingframework.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +87,26 @@
   "keyToString": {
     "Application.CombinationNcROfDigits.executor": "Run",
     "Application.Combinations.executor": "Run",
+    "Application.Demo.executor": "Run",
     "Application.InsertDeleteGetRandomO1_380.executor": "Debug",
     "Application.MaxStack_716.executor": "Run",
+    "Application.ParkingLotDemo.executor": "Run",
     "Application.Solution.executor": "Run",
     "Maven.DSLib [clean].executor": "Run",
     "Maven.DSLib [compile].executor": "Run",
     "Maven.DSLib [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.Just Run.executor": "Run",
+    "Shell Script.Unnamed.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/projects/DSandAlgoLib",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,13 +124,13 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="CombinationNcROfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="airthmetic.CombinationNcROfDigits" />
+  <component name="RunManager" selected="Application.ParkingLotDemo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.LRUCache.Demo" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="airthmetic.*" />
+          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.LRUCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,69 +138,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.backtracking.Combinations" />
+    <configuration name="ParkingLotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.parkinglot.ParkingLotDemo" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.buildwithraghu.backtracking.*" />
+          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.parkinglot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="InsertDeleteGetRandomO1_380" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="randomnumbers.InsertDeleteGetRandomO1_380" />
-      <module name="DSLib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="randomnumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxStack_716" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.MaxStack_716" />
-      <module name="DSLib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="DSLib" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run-node" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Combinations" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.CombinationNcROfDigits" />
-      <item itemvalue="Application.InsertDeleteGetRandomO1_380" />
-      <item itemvalue="Application.MaxStack_716" />
+      <item itemvalue="Application.ParkingLotDemo" />
+      <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Combinations" />
-        <item itemvalue="Application.MaxStack_716" />
-        <item itemvalue="Application.InsertDeleteGetRandomO1_380" />
-        <item itemvalue="Application.CombinationNcROfDigits" />
+        <item itemvalue="Application.ParkingLotDemo" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>

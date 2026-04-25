@@ -2,19 +2,24 @@ package org.buildwithraghu.lowleveldesign.parkinglot.vehicle;
 
 public abstract class Vehicle {
 
-    private final String licenseNumber;
+    private final String licensePlate;
     private final VehicleSize size;
 
-    public Vehicle(String licenseNumber, VehicleSize size) {
-        this.licenseNumber = licenseNumber;
+    protected Vehicle(String licensePlate, VehicleSize size) {
+        this.licensePlate = licensePlate;
         this.size = size;
     }
 
-    public String getLicenseNumber() {
-        return licenseNumber;
+    public String getLicensePlate() {
+        return licensePlate;
     }
 
     public VehicleSize getSize() {
         return size;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + "[licensePlate=" + licensePlate + ", size=" + size + "]";
     }
 }
