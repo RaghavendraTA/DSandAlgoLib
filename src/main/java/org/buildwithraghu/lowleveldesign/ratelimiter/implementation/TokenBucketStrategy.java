@@ -21,31 +21,17 @@ public class TokenBucketStrategy implements RateLimiterStrategy {
 
     @Override
     public boolean allowRequest(String key, long windowDurationMs) {
-        long now = System.nanoTime();
-        BucketState state = buckets.compute(key, (k, existing) -> {
-            if (existing == null) {
-                return new BucketState((double) maxCapacity - 1.0, now, true);
-            }
-            long elapsed = (now - existing.lastRefillTime) / 1_000_000; // ms
-            double newTokens = Math.min(maxCapacity, existing.tokens + elapsed * refillRatePerMs);
-            if (newTokens >= 1.0) {
-                return new BucketState(newTokens - 1.0, now, true);
-            }
-            // Not enough tokens — deny
-            return new BucketState(existing.tokens, now, false);
-        });
-        return state.allowed;
+        return false;
     }
 
     @Override
     public void reset(String key) {
-        buckets.remove(key);
+        
     }
 
     @Override
     public void cleanup() {
-        long now = System.nanoTime();
-        buckets.entrySet().removeIf(entry -> (now - entry.getValue().lastRefillTime) > 3600_000_000_000L);
+        
     }
 
     private static class BucketState {

@@ -21,31 +21,17 @@ public class FixedWindowStrategy implements RateLimiterStrategy {
 
     @Override
     public boolean allowRequest(String key, long windowDurationMs) {
-        long now = System.currentTimeMillis();
-        WindowState state = windows.compute(key, (k, existing) -> {
-            if (existing == null || (now - existing.windowStart) >= windowDurationMs) {
-                // New window — always allow first request
-                return new WindowState(1, now, true);
-            }
-            if (existing.count < maxRequests) {
-                existing.count++;
-                return new WindowState(existing.count, now, true);
-            }
-            // Over limit — don't increment, deny
-            return new WindowState(existing.count, existing.windowStart, false);
-        });
-        return state.allowed;
+        return false;
     }
 
     @Override
     public void reset(String key) {
-        windows.remove(key);
+        
     }
 
     @Override
     public void cleanup() {
-        long now = System.currentTimeMillis();
-        windows.entrySet().removeIf(entry -> (now - entry.getValue().windowStart) > windowDurationMs * 2);
+        
     }
 
     private static class WindowState {
