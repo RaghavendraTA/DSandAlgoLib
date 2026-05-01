@@ -28,6 +28,7 @@ C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\concurrency\SimpleThre
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\AllOne.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\Bank.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\BSTIterator.java
+C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\ConcurrentDoublyLinkedList.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\CounterServiceDemo.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\FileSystem.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\designalgo\FirstUniqueNumber.java
@@ -408,6 +409,7 @@ C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfil
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\FileAttribute.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\FileSearch.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\FileSearchCriteria.java
+C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\FileSearchTest.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\operators\ComparisonOperator.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\operators\EqualsOperator.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\lowleveldesign\unixfilesystem\operators\GreaterThanOperator.java
@@ -445,6 +447,7 @@ C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\mapsandsets\SubArraySu
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\mapsandsets\SubStringAnagrams.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\mapsandsets\Sum3.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\mapsandsets\verifySudoku.java
+C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\Microsoft\dp\LongestCommonSubsequence.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\objectorientedprinciples\designpatterns\AbstractFactory.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\objectorientedprinciples\designpatterns\BuilderDesign.java
 C:\projects\DSandAlgoLib\src\main\java\org\buildwithraghu\objectorientedprinciples\designpatterns\FactoryPattern.java

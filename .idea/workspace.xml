@@ -5,48 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/MovieBookingSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Layout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Screening.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/manager/MovieBookingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/manager/ScreeningManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/manager/SeatLockManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/strategies/NormalRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/strategies/PremiumRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/strategies/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/MovieBookingSystem/strategies/VIPRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/FileAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/FileSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/FileSearchCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/FileSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/operators/ComparisonOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/operators/EqualsOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/operators/GreaterThanOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/operators/LessThanOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/operators/RegexMatchOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/predicates/AndPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/predicates/CompositePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/predicates/NotPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/predicates/OrPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/predicates/Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/unixfilesystem/predicates/SimplePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/visualize/longestCommonSubsequence/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/visualize/longestCommonSubsequence/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/visualize/longestCommonSubsequence/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/dp/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/ConcurrentDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/TwoSum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/visualize/prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/buildwithraghu/visualize/prompt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/FixedWindowStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/FixedWindowStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/LeakyBucketStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/LeakyBucketStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/SlidingWindowStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/SlidingWindowStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/TokenBucketStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lowleveldesign/ratelimiter/implementation/TokenBucketStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/AllOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/AllOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/HitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/HitCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -99,7 +65,9 @@
   &quot;keyToString&quot;: {
     &quot;Application.CombinationNcROfDigits.executor&quot;: &quot;Run&quot;,
     &quot;Application.Combinations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcurrentDoublyLinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileSearchTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.InsertDeleteGetRandomO1_380.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MaxStack_716.executor&quot;: &quot;Run&quot;,
     &quot;Application.MovieBookingSystemDemo.executor&quot;: &quot;Run&quot;,
@@ -139,13 +107,26 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MovieBookingSystemDemo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.LRUCache.Demo" />
+  <component name="RunManager" selected="Application.ConcurrentDoublyLinkedList">
+    <configuration name="ConcurrentDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.designalgo.ConcurrentDoublyLinkedList" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.LRUCache.*" />
+          <option name="PATTERN" value="org.buildwithraghu.designalgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.unixfilesystem.FileSearchTest" />
+      <module name="DSLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.unixfilesystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,17 +174,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ConcurrentDoublyLinkedList" />
+      <item itemvalue="Application.FileSearchTest" />
       <item itemvalue="Application.MovieBookingSystemDemo" />
       <item itemvalue="Application.ParkingLotDemo" />
       <item itemvalue="Application.RateLimiterDemo" />
-      <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentDoublyLinkedList" />
+        <item itemvalue="Application.FileSearchTest" />
         <item itemvalue="Application.MovieBookingSystemDemo" />
         <item itemvalue="Application.RateLimiterDemo" />
         <item itemvalue="Application.ParkingLotDemo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>

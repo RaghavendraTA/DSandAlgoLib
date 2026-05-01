@@ -1,0 +1,2 @@
+Generate html, css, javascript files under folder longestCommonSubsequence having animated educational visulization content that explains how the problem can be solved. the inputs should be variables and should have multiple tabs explaining how to solve the same problem in brute force and other format of solutions, each level of optimized solution in different tab.
+the solution should be in animated form with small div containing the code of the solution.
