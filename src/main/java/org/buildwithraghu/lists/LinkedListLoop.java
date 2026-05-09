@@ -30,26 +30,28 @@ public class LinkedListLoop {
         return slow;
     }
 
-    // https://leetcode.com/problems/happy-number/
-    public boolean isHappy(int n) {
-        int slow = n, fast = n;
-        while (true) {
-            slow = getNextNum(slow);
-            fast = getNextNum(getNextNum(fast));
-            if (fast == 1)
-                return true;
-            else if (fast == slow)
-                return false;
+    // Find length of the loop in linkedlist that has cycle
+    public int lengthOfTheCycle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        boolean loopExists = false;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                loopExists = true;
+                break;
+            }
         }
-    }
-
-    int getNextNum(int x) {
-        int next_num = 0, digit;
-        while (x > 0) {
-            digit = x % 10;
-            x = x / 10;
-            next_num += digit * digit;
+        if (loopExists) {
+            int c = 0;
+            fast = fast.next;
+            while(fast != slow) {
+                fast = fast.next;
+                c++;
+            }
+            return c;
         }
-        return next_num;
+        return -1;
     }
 }

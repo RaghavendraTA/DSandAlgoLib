@@ -2,26 +2,11 @@ package org.buildwithraghu.designalgo;
 
 import java.util.*;
 
-/**
- * A thread-safe doubly linked list implementing Deque.
- * Uses synchronized methods for thread safety — simple, correct, and easy to explain.
- *
- * All elements must be non-null. Uses sentinel (dummy) nodes for head and tail
- * to simplify edge-case handling (no null checks at boundaries).
- *
- * Iterators are weakly consistent — they reflect state at some point during iteration,
- * never throw ConcurrentModificationException, and may or may not include concurrent changes.
- */
 public class ConcurrentDoublyLinkedList<T> implements Deque<T> {
 
-    /**
-     * Doubly linked node with prev and next pointers.
-     * Private static inner class — encapsulated, no generic shadowing.
-     */
     private static class Node<T> {
         T val;
         Node<T> next, prev;
-
         Node(T val) {
             this.val = val;
             this.next = null;

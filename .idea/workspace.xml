@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38c1ccba-842f-4e8a-8e07-b1617376e141" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/Microsoft/dp/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/ConcurrentDoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/visualize/prompt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/buildwithraghu/visualize/prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/PhoneDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/BinaryTreeToLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/MinimumPairRemovalToSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/MorrisTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/MyCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/mapsandsets/TextJustification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/pointers/MinimumPairRemovalToSortArrayI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/queue/FrontMiddleBackQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/queue/MRUQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/queue/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/tree/SimpleBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/AllOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/AllOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/HitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/HitCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/ConcurrentDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/designalgo/ConcurrentDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/DoubleLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/DoublyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/HasCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/LinkedListLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/LinkedListLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/intersectionPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/lists/intersectionPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/buildwithraghu/tree/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,36 +74,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CombinationNcROfDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Combinations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentDoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileSearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertDeleteGetRandomO1_380.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxStack_716.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovieBookingSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParkingLotDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RateLimiterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.DSLib [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.DSLib [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.DSLib [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Shell Script.Just Run.executor&quot;: &quot;Run&quot;,
-    &quot;Shell Script.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/DSandAlgoLib&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CombinationNcROfDigits.executor": "Run",
+    "Application.Combinations.executor": "Run",
+    "Application.ConcurrentDoublyLinkedList.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.FileSearchTest.executor": "Run",
+    "Application.InsertDeleteGetRandomO1_380.executor": "Debug",
+    "Application.MaxStack_716.executor": "Run",
+    "Application.MinimumPairRemovalToSortArrayI.executor": "Run",
+    "Application.MovieBookingSystemDemo.executor": "Run",
+    "Application.ParkingLotDemo.executor": "Run",
+    "Application.PhoneDirectory.executor": "Run",
+    "Application.RateLimiterDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.TextJustification.executor": "Run",
+    "Maven.DSLib [clean].executor": "Run",
+    "Maven.DSLib [compile].executor": "Run",
+    "Maven.DSLib [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.Just Run.executor": "Run",
+    "Shell Script.Unnamed.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/DSandAlgoLib",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\RaghavendraTA\OneDrive\Documents\vscode\DSLib\src\test" />
@@ -107,7 +123,7 @@
       <recent name="linkedlist.node" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentDoublyLinkedList">
+  <component name="RunManager" selected="Application.TextJustification">
     <configuration name="ConcurrentDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.designalgo.ConcurrentDoublyLinkedList" />
       <module name="DSLib" />
@@ -134,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieBookingSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.MovieBookingSystem.MovieBookingSystemDemo" />
+    <configuration name="MinimumPairRemovalToSortArrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.pointers.MinimumPairRemovalToSortArrayI" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.MovieBookingSystem.*" />
+          <option name="PATTERN" value="org.buildwithraghu.pointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.parkinglot.ParkingLotDemo" />
+    <configuration name="PhoneDirectory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.designalgo.PhoneDirectory" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.parkinglot.*" />
+          <option name="PATTERN" value="org.buildwithraghu.designalgo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.lowleveldesign.ratelimiter.RateLimiterDemo" />
+    <configuration name="TextJustification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.buildwithraghu.mapsandsets.TextJustification" />
       <module name="DSLib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.buildwithraghu.lowleveldesign.ratelimiter.*" />
+          <option name="PATTERN" value="org.buildwithraghu.mapsandsets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,19 +190,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TextJustification" />
+      <item itemvalue="Application.PhoneDirectory" />
+      <item itemvalue="Application.MinimumPairRemovalToSortArrayI" />
       <item itemvalue="Application.ConcurrentDoublyLinkedList" />
       <item itemvalue="Application.FileSearchTest" />
-      <item itemvalue="Application.MovieBookingSystemDemo" />
-      <item itemvalue="Application.ParkingLotDemo" />
-      <item itemvalue="Application.RateLimiterDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextJustification" />
+        <item itemvalue="Application.PhoneDirectory" />
+        <item itemvalue="Application.MinimumPairRemovalToSortArrayI" />
         <item itemvalue="Application.ConcurrentDoublyLinkedList" />
         <item itemvalue="Application.FileSearchTest" />
-        <item itemvalue="Application.MovieBookingSystemDemo" />
-        <item itemvalue="Application.RateLimiterDemo" />
-        <item itemvalue="Application.ParkingLotDemo" />
       </list>
     </recent_temporary>
   </component>

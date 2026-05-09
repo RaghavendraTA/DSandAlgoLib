@@ -11,7 +11,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
         root = _insert(root, value);
     }
 
-    public void insertAnArray(T... values) {
+    @SafeVarargs
+    public final void insertAnArray(T... values) {
         for (T value : values) {
             insert(value);
         }

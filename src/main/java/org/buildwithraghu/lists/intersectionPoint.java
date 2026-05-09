@@ -4,25 +4,16 @@ import org.buildwithraghu.utilities.Node;
 
 public class intersectionPoint {
 
-    int intersectPoint(Node head1, Node head2) {
+    Node intersectPoint(Node headA, Node headB) {
+        if (headA == null || headB == null) return null;
 
-        Node temp1 = head1;
-        Node temp2 = head2;
-
-        while (temp1 != null || temp2 != null) {
-            temp1 = temp1.next;
-            temp2 = temp2.next;
-            if (temp1 == temp2) {
-                return temp1.value;
-            }
-            if (temp1.next == null) {
-                temp1 = head2;
-            }
-            if (temp2.next == null) {
-                temp2 = head1;
-            }
+        Node tempA = headA;
+        Node tempB = headB;
+        while(tempA != tempB) {
+            tempA = tempA != null ? tempA.next : headB;
+            tempB = tempB != null ? tempB.next : headA;
         }
-        return -1;
+        return tempA;
     }
 
 }
