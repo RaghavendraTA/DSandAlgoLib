@@ -1,10 +1,9 @@
 package org.buildwithraghu.google;
 
-import java.util.ConcurrentModificationException;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-class LFUCache_Google {
+class LFUCache {
 
     static class Node {
 		Integer key, value, count;
@@ -59,7 +58,7 @@ class LFUCache_Google {
 	private final int capacity;
 	private int minFreq = 0;
 
-    public LFUCache_Google(int capacity) {
+    public LFUCache(int capacity) {
         this.capacity = capacity;
 		this.cache = new ConcurrentHashMap<>();
 		this.bucket = new ConcurrentHashMap<>();

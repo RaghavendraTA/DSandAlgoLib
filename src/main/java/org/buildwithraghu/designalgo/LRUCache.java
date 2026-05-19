@@ -5,6 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// https://leetcode.com/problems/lru-cache/description/
 abstract class KeyType<T> {
     protected T key;
     abstract boolean isEqual(Object o);

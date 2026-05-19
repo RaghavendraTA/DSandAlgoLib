@@ -18,7 +18,7 @@ public class RandomizedSet {
         if (dict.containsKey(val))
             return false;
         dict.put(val, list.size());
-        list.add(list.size(), val);
+        list.addLast(val);
         return true;
     }
 

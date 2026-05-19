@@ -30,13 +30,13 @@ public class SearchInRotatedSorted {
             return p;
 
         return Math.max(
-                Math.max(-1, Arrays.binarySearch(nums, 0, p, target)),
-                Math.max(-1, Arrays.binarySearch(nums, p+1, nums.length, target))
+            Math.max(-1, Arrays.binarySearch(nums, 0, p, target)),
+            Math.max(-1, Arrays.binarySearch(nums, p+1, nums.length, target))
         );
     }
 
     public static void main(String[] args) {
-        SearchInSortedRotatedArray sr = new SearchInSortedRotatedArray();
+        SearchInRotatedSorted sr = new SearchInRotatedSorted();
         System.out.println(sr.search(new int[]{6,7,8,1,2,3,4,5}, 6));
     }
 }
